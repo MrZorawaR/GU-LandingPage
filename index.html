@@ -241,6 +241,15 @@
             class="h-16">
         </a>
 
+        <a href="tel:9278768000"
+          class="inline-flex lg:hidden items-center gap-2 bg-accent-500 hover:bg-accent-600 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-all shadow-lg hover:shadow-xl">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+          </svg>
+          9278768000
+        </a>
+
         <!-- Desktop Nav -->
         <nav class="hidden lg:flex items-center gap-8" aria-label="Main navigation">
           <a href="#about_section"
@@ -258,10 +267,6 @@
                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
             </svg>
             9278768000
-          </a>
-          <a href="#banner_form"
-            class="inline-flex items-center gap-2 bg-white text-primary-600 text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-primary-50 transition-all shadow-lg hover:shadow-xl">
-            Walk-in
           </a>
         </nav>
 
@@ -282,14 +287,14 @@
         <div class="embla__slide relative flex-[0_0_100%]">
           <img src="https://geetauniversity.edu.in/uploads/all/1859/conversions/webpage-cover-16x9-full.webp"
             alt="AI Enabled University Campus" width="1920" height="1080" class="w-full h-full object-cover">
-          <div class="absolute inset-0 bg-black/40"></div>
+          <div class="absolute inset-0 bg-black/40 hidden lg:block"></div>
         </div>
 
         <div class="embla__slide relative flex-[0_0_100%]">
           <img src="https://geetauniversity.edu.in/uploads/all/1692/conversions/Web-Cover-Images-full.webp"
             alt="Geeta University Students" width="1920" height="1080" loading="lazy"
             class="w-full h-full object-cover">
-          <div class="absolute inset-0 bg-black/40"></div>
+          <div class="absolute inset-0 bg-black/40 hidden lg:block"></div>
         </div>
 
       </div>
@@ -302,7 +307,7 @@
 
         <div class="flex justify-end items-center">
 
-          <div class="-mt-16 lg:mt-0 pb-12 lg:pb-0">
+          <div class="mt-4 lg:mt-0 pb-12 lg:pb-0">
 
             <div class="bg-white rounded-2xl shadow-2xl p-6 md:p-8">
 
@@ -352,7 +357,7 @@
 
   </section>
   <!-- Stats-Recruiters Section -->
-  <section class="py-10 bg-neutral-50 relative overflow-hidden">
+  <section class="pt-10 bg-neutral-50 relative overflow-hidden">
 
     <!-- subtle bg pattern -->
     <div class="absolute inset-0 opacity-[0.03] pointer-events-none"
@@ -361,213 +366,361 @@
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
-      <!-- Stat Pills — flex wrap -->
-      <div class="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-4 mb-8">
-
-        <!-- Stat 1 -->
-        <div
-          class="flex items-center gap-4 bg-white border-2 border-primary-600/40 rounded-2xl px-5 py-4 shadow-sm hover:shadow-md hover:border-primary-600/70 hover:-translate-y-0.5 transition-all duration-300 w-full sm:w-auto sm:min-w-[320px]">
-          <div class="w-11 h-11 rounded-xl bg-primary-600 flex items-center justify-center flex-shrink-0">
-            <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-              stroke-linecap="round" stroke-linejoin="round">
-              <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
-              <path d="M9 22v-4h6v4"></path>
-              <path d="M8 6h.01M16 6h.01M12 6h.01M12 10h.01M12 14h.01M16 10h.01M16 14h.01M8 10h.01M8 14h.01"></path>
-            </svg>
-          </div>
-          <div>
-            <div class="text-2xl font-black text-primary-600 leading-tight">550+</div>
-            <div class="text-xs text-neutral-500 uppercase tracking-wider font-medium">Companies Visited</div>
-          </div>
-          <div class="ml-auto w-px h-10 bg-gradient-to-b from-transparent via-primary-200 to-transparent"></div>
+      <!-- Stats — plain text -->
+      <div class="flex justify-between items-center gap-8 mb-8 text-center px-4">
+        <div class="">
+          <div class="text-2xl md:text-3xl font-black text-accent-500">550+</div>
+          <div class="text-sm text-neutral-800">Companies Visited</div>
         </div>
-
-        <!-- Stat 2 -->
-        <div
-          class="flex items-center gap-4 bg-white border-2 border-accent-500/40 rounded-2xl px-5 py-4 shadow-sm hover:shadow-md hover:border-accent-500/70 hover:-translate-y-0.5 transition-all duration-300 w-full sm:w-auto sm:min-w-[320px]">
-          <div class="w-11 h-11 rounded-xl bg-accent-500 flex items-center justify-center flex-shrink-0">
-            <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-              stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
-              <polyline points="16 7 22 7 22 13"></polyline>
-            </svg>
-          </div>
-          <div>
-            <div class="text-2xl font-black text-accent-500 leading-tight">40 LPA</div>
-            <div class="text-xs text-neutral-500 uppercase tracking-wider font-medium">Highest Package</div>
-          </div>
-          <div class="ml-auto w-px h-10 bg-gradient-to-b from-transparent via-accent-200 to-transparent"></div>
+        <div>
+          <div class="text-2xl md:text-3xl font-black text-accent-500">40 LPA</div>
+          <div class="text-sm text-neutral-800">Highest Package</div>
         </div>
-
-        <!-- Stat 3 -->
-        <div
-          class="flex items-center gap-4 bg-white border-2 border-primary-600/40 rounded-2xl px-5 py-4 shadow-sm hover:shadow-md hover:border-primary-600/70 hover:-translate-y-0.5 transition-all duration-300 w-full sm:w-auto sm:min-w-[320px]">
-          <div class="w-11 h-11 rounded-xl bg-primary-600 flex items-center justify-center flex-shrink-0">
-            <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-              stroke-linecap="round" stroke-linejoin="round">
-              <rect width="20" height="14" x="2" y="7" rx="2" ry="2"></rect>
-              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-              <path d="M9 14l2 2 4-4"></path>
-            </svg>
-          </div>
-          <div>
-            <div class="text-2xl font-black text-primary-600 leading-tight">3,500+</div>
-            <div class="text-xs text-neutral-500 uppercase tracking-wider font-medium">Placements Offered</div>
-          </div>
-          <div class="ml-auto w-px h-10 bg-gradient-to-b from-transparent via-primary-200 to-transparent"></div>
+        <div>
+          <div class="text-2xl md:text-3xl font-black text-accent-500">3,500+</div>
+          <div class="text-sm text-neutral-800">Placements Offered</div>
         </div>
-
       </div>
 
       <!-- Top Recruiters -->
-      <div class="mt-10 rounded-2xl border border-2 border-accent-500/60 bg-white py-8 overflow-hidden">
-        <p class="font-heading text-3xl sm:text-4xl lg:text-5xl font-black text-primary-600 mb-6 text-center">Top
-          Recruiters</p>
+    </div>
+  </section>
+  <!-- SECTION 10: TESTIMONIALS — From Campus To Corporate Success -->
+  <section class="pt-10 bg-neutral-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12 md:mb-16">
+        <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-black text-primary-600 mb-3">From Campus To
+          Corporate Success</h2>
+        <div class="w-20 h-1 bg-gradient-to-r from-accent-400 to-accent-600 mx-auto rounded-full mb-10"></div>
+      </div>
 
-        <!-- Infinite scroll strip -->
-        <div class="relative overflow-hidden">
-          <!-- Fade edges -->
-          <div
-            class="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none">
-          </div>
-          <div
-            class="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none">
-          </div>
+      <!-- Carousel wrapper -->
+      <div class="relative reveal">
+        <!-- Prev Button -->
+        <button id="testimonialPrev"
+          class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-3 md:-translate-x-5 z-10 w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-md border border-neutral-200 text-neutral-800 hover:text-primary-600 hover:border-primary-300 transition-colors"
+          aria-label="Previous testimonial">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
 
-          <div class="flex animate-flags-scroll items-center w-max gap-0">
-            <!-- Set 1 -->
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/flipkart.com" alt="Flipkart"
-                class="max-h-10 max-w-full object-contain" />
+        <!-- Next Button -->
+        <button id="testimonialNext"
+          class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-3 md:translate-x-5 z-10 w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-md border border-neutral-200 text-neutral-800 hover:text-primary-600 hover:border-primary-300 transition-colors"
+          aria-label="Next testimonial">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+
+        <!-- Embla viewport -->
+        <div class="testimonial-embla overflow-hidden mx-4 md:mx-8">
+          <div class="flex ml-[-1.5rem]">
+
+            <!-- Slide 1 — Riya -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
+                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
+                  <img src="https://geetauniversity.edu.in/uploads/all/1903/conversions/riya.jpg-full.webp" alt="Riya"
+                    class="w-full h-full object-cover" loading="lazy" />
+                </div>
+                <p class="font-semibold text-neutral-800 text-base mb-1">Riya</p>
+                <p class="font-bold text-primary-600 text-sm mb-4">Package - 22 LPA</p>
+                <p class="text-neutral-800 text-sm leading-relaxed italic">My journey at Geeta University was impactful.
+                  The lively campus and well-established industry exposure led the way to my successful placement,
+                  empowering me to succeed in my career.</p>
+              </div>
             </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/acclimited.com" alt="ACC"
-                class="max-h-10 max-w-full object-contain" />
+
+            <!-- Slide 2 — Monty -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
+                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
+                  <img src="https://geetauniversity.edu.in/uploads/all/1901/conversions/Monty.jpg-full.webp" alt="Monty"
+                    class="w-full h-full object-cover" loading="lazy" />
+                </div>
+                <p class="font-semibold text-neutral-800 text-base mb-1">Monty</p>
+                <p class="font-bold text-primary-600 text-sm mb-4">Package - 24 LPA</p>
+                <p class="text-neutral-800 text-sm leading-relaxed italic">Gained confidence and perseverance from Geeta
+                  University's campus life and learning culture. I was able to overcome obstacles and create a solid
+                  professional future thanks to the useful lessons and industry-focused approach.</p>
+              </div>
             </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/lnttechservices.com" alt="L&T Technology Services"
-                class="max-h-10 max-w-full object-contain" />
+
+            <!-- Slide 3 — Rahul Mor -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
+                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
+                  <img src="https://geetauniversity.edu.in/uploads/all/1899/conversions/rahul.jpg-full.webp"
+                    alt="Rahul Mor" class="w-full h-full object-cover" loading="lazy" />
+                </div>
+                <p class="font-semibold text-neutral-800 text-base mb-1">Rahul Mor</p>
+                <p class="font-bold text-primary-600 text-sm mb-4">Package - 25 LPA</p>
+                <p class="text-neutral-800 text-sm leading-relaxed italic">Geeta University helped me with
+                  communication, confidence, and real-world skills through structured training, expert mentoring, and
+                  placement preparation, which empowered me to excel in real-world corporate environments.</p>
+              </div>
             </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/indusind.com" alt="IndusInd Bank"
-                class="max-h-10 max-w-full object-contain" />
+
+            <!-- Slide 4 — Shantanu Ojha -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
+                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
+                  <img src="https://geetauniversity.edu.in/uploads/all/1898/conversions/shantanu.jpg-full.webp"
+                    alt="Shantanu Ojha" class="w-full h-full object-cover" loading="lazy" />
+                </div>
+                <p class="font-semibold text-neutral-800 text-base mb-1">Shantanu Ojha</p>
+                <p class="font-bold text-primary-600 text-sm mb-4">Package - 30 LPA</p>
+                <p class="text-neutral-800 text-sm leading-relaxed italic">The Holistic campus experience and scholarly
+                  environment helped me gain confidence and determination to secure a 30 LPA package.</p>
+              </div>
             </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/kotak.com" alt="Kotak Mahindra Bank"
-                class="max-h-10 max-w-full object-contain" />
+
+            <!-- Slide 5 — Saransh -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
+                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
+                  <img src="https://geetauniversity.edu.in/uploads/all/1895/conversions/saransh-full.webp" alt="Saransh"
+                    class="w-full h-full object-cover" loading="lazy" />
+                </div>
+                <p class="font-semibold text-neutral-800 text-base mb-1">Saransh</p>
+                <p class="font-bold text-primary-600 text-sm mb-4">Package - 30 LPA</p>
+                <p class="text-neutral-800 text-sm leading-relaxed italic">Beyond academics, GU individually helped me
+                  to grow. The campus &amp; environment here helped me to stay determined towards my goals and to be
+                  ready in real-world skills.</p>
+              </div>
             </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/jaroeducation.com" alt="Jaro Education"
-                class="max-h-10 max-w-full object-contain" />
+
+            <!-- Slide 6 — Prikshit -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
+                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
+                  <img src="https://geetauniversity.edu.in/uploads/all/1900/conversions/parikshit.jpg-full.webp"
+                    alt="Prikshit" class="w-full h-full object-cover" loading="lazy" />
+                </div>
+                <p class="font-semibold text-neutral-800 text-base mb-1">Prikshit</p>
+                <p class="font-bold text-primary-600 text-sm mb-4">Package - 30 LPA</p>
+                <p class="text-neutral-800 text-sm leading-relaxed italic">Time I spent at Geeta University, helped me
+                  to fill the gap between theory-based learning and practical learning. The practical lessons helped me
+                  to shape my career.</p>
+              </div>
             </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/prograd.in" alt="ProGrad"
-                class="max-h-10 max-w-full object-contain" />
+
+            <!-- Slide 7 — Vikas Bareja -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
+                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
+                  <img src="https://geetauniversity.edu.in/uploads/all/1896/conversions/vivek-full.webp"
+                    alt="Vikas Bareja" class="w-full h-full object-cover" loading="lazy" />
+                </div>
+                <p class="font-semibold text-neutral-800 text-base mb-1">Vikas Bareja</p>
+                <p class="font-bold text-primary-600 text-sm mb-4">Package - 34 LPA</p>
+                <p class="text-neutral-800 text-sm leading-relaxed italic">Geeta University provides a nurturing
+                  environment. The advanced infrastructure and strong placement support helped me gain the confidence to
+                  move into a high-profile role.</p>
+              </div>
             </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/wipro.com" alt="Wipro" class="max-h-10 max-w-full object-contain" />
+
+            <!-- Slide 8 — Manik Sharma -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
+                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
+                  <img src="https://geetauniversity.edu.in/uploads/all/1902/conversions/Manik.jpg-full.webp"
+                    alt="Manik Sharma" class="w-full h-full object-cover" loading="lazy" />
+                </div>
+                <p class="font-semibold text-neutral-800 text-base mb-1">Manik Sharma</p>
+                <p class="font-bold text-primary-600 text-sm mb-4">Package - 67.5 LPA</p>
+                <p class="text-neutral-800 text-sm leading-relaxed italic">Geeta University offers a premier academic
+                  and campus life experience. The skills I learned here were integral to my success and helped me
+                  achieve a ₹67.5 LPA package.</p>
+              </div>
             </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/tcs.com" alt="TCS" class="max-h-10 max-w-full object-contain" />
+
+            <!-- Slide 9 — Mr. Rakesh -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
+                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
+                  <img src="https://geetauniversity.edu.in/uploads/all/1681/conversions/Rakesh,-B.Tech.-full.webp"
+                    alt="Mr. Rakesh" class="w-full h-full object-cover" loading="lazy" />
+                </div>
+                <p class="font-semibold text-neutral-800 text-base mb-1">Mr. Rakesh</p>
+                <p class="font-bold text-primary-600 text-sm mb-4">Package - INR 52 LPA</p>
+                <p class="text-neutral-800 text-sm leading-relaxed italic">“Engineering at Geeta Campus gave me the
+                  skills and confidence to excel in the industry. My journey from campus to securing a 52 LPA package at
+                  Reliance has truly been life-changing.”</p>
+              </div>
             </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/infosys.com" alt="Infosys"
-                class="max-h-10 max-w-full object-contain" />
+
+            <!-- Slide 10 — Mr. Vaibhav Arora -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
+                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
+                  <img src="https://geetauniversity.edu.in/uploads/all/1897/conversions/Vaibhav.jpg-full.webp"
+                    alt="Mr. Vaibhav Arora" class="w-full h-full object-cover" loading="lazy" />
+                </div>
+                <p class="font-semibold text-neutral-800 text-base mb-1">Mr. Vaibhav Arora</p>
+                <p class="font-bold text-primary-600 text-sm mb-4">Package - INR 1.4 Crore PA</p>
+                <p class="text-neutral-800 text-sm leading-relaxed italic">"Their focus on 360-degree development,
+                  mentorship programs, and industry interactions helped me become an entrepreneur instead of seeking a
+                  job. "</p>
+              </div>
             </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/hcltech.com" alt="HCL Tech"
-                class="max-h-10 max-w-full object-contain" />
+
+            <!-- Slide 11 — Mr. Yakshup Goel -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
+                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
+                  <img
+                    src="https://geetauniversity.edu.in/uploads/all/87/conversions/WhatsApp-Image-2025-01-13-at-15.51.10_34a3dacb-full.webp"
+                    alt="Mr. Yakshup Goel" class="w-full h-full object-cover" loading="lazy" />
+                </div>
+                <p class="font-semibold text-neutral-800 text-base mb-1">Mr. Yakshup Goel</p>
+                <p class="font-bold text-primary-600 text-sm mb-4">Package - 40 LPA</p>
+                <p class="text-neutral-800 text-sm leading-relaxed italic">"The two years I spent at the Geeta
+                  University Campus, inspired me to persevere &amp; never give up on anything irrespective of how
+                  difficult it might seem. The practical lessons learnt here were instrumental in building my career."
+                </p>
+              </div>
             </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/amazon.in" alt="Amazon" class="max-h-10 max-w-full object-contain" />
+
+            <!-- Slide 12 — Mr. Abhishek Kumar -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
+                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
+                  <img src="https://geetauniversity.edu.in/uploads/all/1677/conversions/Abhishek-Kumar-full.webp"
+                    alt="Mr. Abhishek Kumar" class="w-full h-full object-cover" loading="lazy" />
+                </div>
+                <p class="font-semibold text-neutral-800 text-base mb-1">Mr. Abhishek Kumar</p>
+                <p class="font-bold text-primary-600 text-sm mb-4">Package - INR 77.5 LPA</p>
+                <p class="text-neutral-800 text-sm leading-relaxed italic">"I’m deeply grateful to Geeta Campus and my
+                  mentors for laying the foundation of my career. Coming from a humble background, achieving this
+                  package is truly a dream come true."</p>
+              </div>
             </div>
-            <!-- Set 2 (duplicate for seamless loop) -->
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/flipkart.com" alt="Flipkart"
-                class="max-h-10 max-w-full object-contain" />
-            </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/acclimited.com" alt="ACC"
-                class="max-h-10 max-w-full object-contain" />
-            </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/lnttechservices.com" alt="L&T Technology Services"
-                class="max-h-10 max-w-full object-contain" />
-            </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/indusind.com" alt="IndusInd Bank"
-                class="max-h-10 max-w-full object-contain" />
-            </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/kotak.com" alt="Kotak Mahindra Bank"
-                class="max-h-10 max-w-full object-contain" />
-            </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/jaroeducation.com" alt="Jaro Education"
-                class="max-h-10 max-w-full object-contain" />
-            </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/prograd.in" alt="ProGrad"
-                class="max-h-10 max-w-full object-contain" />
-            </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/wipro.com" alt="Wipro" class="max-h-10 max-w-full object-contain" />
-            </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/tcs.com" alt="TCS" class="max-h-10 max-w-full object-contain" />
-            </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/infosys.com" alt="Infosys"
-                class="max-h-10 max-w-full object-contain" />
-            </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/hcltech.com" alt="HCL Tech"
-                class="max-h-10 max-w-full object-contain" />
-            </div>
-            <div
-              class="flex-shrink-0 mx-3 w-36 h-20 rounded-xl border border-neutral-200 bg-neutral-50 flex items-center justify-center p-3">
-              <img src="https://logo.clearbit.com/amazon.in" alt="Amazon" class="max-h-10 max-w-full object-contain" />
-            </div>
+
           </div>
         </div>
       </div>
-
     </div>
   </section>
+  <div class="py-10 overflow-hidden px-0 md:px-3">
+    <p class="font-heading text-3xl sm:text-4xl lg:text-5xl font-black text-primary-600 mb-3 text-center">Top
+      Recruiters</p>
+    <div class="w-20 h-1 bg-gradient-to-r from-accent-400 to-accent-600 mx-auto rounded-full mb-10"></div>
+
+    <!-- Infinite scroll strip -->
+    <div class="relative overflow-hidden">
+      <!-- Fade edges -->
+      <div
+        class="absolute left-0 top-0 bottom-0 md:w-16 w-8 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none">
+      </div>
+      <div
+        class="absolute right-0 top-0 bottom-0 md:w-16 w-8 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none">
+      </div>
+
+      <div class="flex animate-flags-scroll items-center w-max gap-0">
+        <!-- Set 1 -->
+        <img src="https://geetauniversity.edu.in/uploads/all/1925/conversions/35.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1924/conversions/34.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1923/conversions/36.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1929/conversions/31.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1927/conversions/32.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1926/conversions/33.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1935/conversions/25.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1934/conversions/24.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1933/conversions/26.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1932/conversions/28.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1931/conversions/27.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1930/conversions/29.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1940/conversions/19.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1939/conversions/20.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1938/conversions/21.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1937/conversions/22.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1936/conversions/23.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1942/conversions/18.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <!-- Set 2 (duplicate for seamless loop) -->
+        <img src="https://geetauniversity.edu.in/uploads/all/1925/conversions/35.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1924/conversions/34.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1923/conversions/36.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1929/conversions/31.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1927/conversions/32.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1926/conversions/33.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1935/conversions/25.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1934/conversions/24.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1933/conversions/26.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1932/conversions/28.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1931/conversions/27.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1930/conversions/29.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1940/conversions/19.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1939/conversions/20.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1938/conversions/21.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1937/conversions/22.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1936/conversions/23.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1942/conversions/18.jpg-full.webp" alt="Recruiter"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+      </div>
+    </div>
+  </div>
 
   <!-- SECTION 3: ABOUT + VIDEO + FEATURES -->
-  <section id="about_section" class="pb-20 pt-10 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <section id="about_section"
+    class="py-10 bg-[url('https://geetauniversity.edu.in/themes/geetau/image/course_bg_1-2-1.webp')] bg-cover bg-center"
+    style="transform: scaleX(-1); background-attachment: fixed;">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style="transform: scaleX(-1);">
 
       <!-- Section Header -->
       <div class="text-center mb-12 md:mb-16 reveal">
         <span class="inline-block text-accent-500 font-semibold text-sm uppercase tracking-widest mb-3">Welcome to the
           World of</span>
-        <h1 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-black text-primary-600 mb-4">AI-Enabled Geeta
-          University
+        <h1 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-black text-primary-600 mb-4">NextGen Smart Campus
         </h1>
         <div class="w-20 h-1 bg-gradient-to-r from-accent-400 to-accent-600 mx-auto rounded-full"></div>
       </div>
@@ -576,19 +729,6 @@
 
         <!-- Left: Description + Video -->
         <div class="space-y-8 reveal">
-          <p class="text-neutral-600 text-base md:text-lg leading-relaxed text-justify">
-            It covers 40 acres of land. Geeta University carries the powerful tradition of the Geeta Group of
-            Institutions. It is now transformed into the AI-powered University. Based on the tenets on Karma along with
-            a global outlook, GU blends academic excellence with cutting-edge technology to create an advanced and
-            future-proof learning environment. From AI-driven classrooms to smart classes, learning platforms, and
-            transparent digital systems, each interaction at GU is created to be effortless, creative and centered
-            around students.
-          </p>
-          <p class="text-neutral-800 text-base leading-relaxed text-justify">
-            Geeta University stands as the culmination of aspiration, ambition and a commitment to an elite,
-            technologically-driven education that prepares students for the jobs of the future.
-          </p>
-
           <!-- Video Preview Block -->
           <div class="relative rounded-2xl overflow-hidden shadow-xl group cursor-pointer bg-neutral-900 aspect-video">
             <img src="https://in6cdn.npfs.co/uploads/template/6438/1116/publish/images/video.jpg"
@@ -616,107 +756,286 @@
           </div>
         </div>
 
-        <!-- Right: Feature Cards Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 reveal">
-          <!-- Feature 1 -->
-          <div class="bg-neutral-50 rounded-2xl p-5 hover-lift border border-neutral-100">
-            <div class="w-11 h-11 bg-primary-100 rounded-xl flex items-center justify-center mb-3">
-              <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+        <!-- Right: Feature Accordions -->
+        <div class="space-y-3 reveal" id="featuresAccordion">
+          <div class="accordion-item bg-white rounded-xl border border-neutral-200 shadow-sm overflow-hidden">
+            <button
+              class="accordion-btn w-full flex items-center justify-between p-5 py-4 text-left font-semibold text-primary-700 hover:bg-primary-50/50 transition-colors"
+              aria-expanded="false">
+              <span>Digital Attendance System</span>
+              <svg class="acc-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0 ml-3" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
+            </button>
+            <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300">
+              <p class="px-5 pb-5 text-neutral-800 text-sm leading-relaxed">AI-powered attendance syncs immediately with
+                student data providing complete transparency.</p>
             </div>
-            <p class="font-semibold text-primary-700 text-sm mb-1.5">Digital Attendance System</p>
-            <p class="text-neutral-800 text-xs leading-relaxed">AI-powered attendance syncs immediately with student
-              data providing complete transparency.</p>
           </div>
-          <!-- Feature 2 -->
-          <div class="bg-neutral-50 rounded-2xl p-5 hover-lift border border-neutral-100">
-            <div class="w-11 h-11 bg-accent-100 rounded-xl flex items-center justify-center mb-3">
-              <svg class="w-5 h-5 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+          <div class="accordion-item bg-white rounded-xl border border-neutral-200 shadow-sm overflow-hidden">
+            <button
+              class="accordion-btn w-full flex items-center justify-between p-5 py-4 text-left font-semibold text-primary-700 hover:bg-primary-50/50 transition-colors"
+              aria-expanded="false">
+              <span>Smart Library Services</span>
+              <svg class="acc-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0 ml-3" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
+            </button>
+            <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300">
+              <p class="px-5 pb-5 text-neutral-800 text-sm leading-relaxed">AI helps find books, journals & research
+                materials. Personalized academic suggestions curated for you.</p>
             </div>
-            <p class="font-semibold text-primary-700 text-sm mb-1.5">Smart Library Services</p>
-            <p class="text-neutral-800 text-xs leading-relaxed">AI helps find books, journals & research materials.
-              Personalized academic suggestions curated for you.</p>
           </div>
-          <!-- Feature 3 -->
-          <div class="bg-neutral-50 rounded-2xl p-5 hover-lift border border-neutral-100">
-            <div class="w-11 h-11 bg-primary-100 rounded-xl flex items-center justify-center mb-3">
-              <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          <div class="accordion-item bg-white rounded-xl border border-neutral-200 shadow-sm overflow-hidden">
+            <button
+              class="accordion-btn w-full flex items-center justify-between p-5 py-4 text-left font-semibold text-primary-700 hover:bg-primary-50/50 transition-colors"
+              aria-expanded="false">
+              <span>Advanced E-Learning Platform</span>
+              <svg class="acc-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0 ml-3" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
+            </button>
+            <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300">
+              <p class="px-5 pb-5 text-neutral-800 text-sm leading-relaxed">Track attendance, notes, quizzes with
+                AI-generated progress dashboards and reminders.</p>
             </div>
-            <p class="font-semibold text-primary-700 text-sm mb-1.5">Advanced E-Learning Platform</p>
-            <p class="text-neutral-800 text-xs leading-relaxed">Track attendance, notes, quizzes with AI-generated
-              progress dashboards and reminders.</p>
           </div>
-          <!-- Feature 4 -->
-          <div class="bg-neutral-50 rounded-2xl p-5 hover-lift border border-neutral-100">
-            <div class="w-11 h-11 bg-accent-100 rounded-xl flex items-center justify-center mb-3">
-              <svg class="w-5 h-5 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+          <div class="accordion-item bg-white rounded-xl border border-neutral-200 shadow-sm overflow-hidden">
+            <button
+              class="accordion-btn w-full flex items-center justify-between p-5 py-4 text-left font-semibold text-primary-700 hover:bg-primary-50/50 transition-colors"
+              aria-expanded="false">
+              <span>Integrated e-Governance</span>
+              <svg class="acc-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0 ml-3" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
+            </button>
+            <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300">
+              <p class="px-5 pb-5 text-neutral-800 text-sm leading-relaxed">Raise tickets for hostels, academics, IT &
+                more. AI prioritizes issues for quick resolutions.</p>
             </div>
-            <p class="font-semibold text-primary-700 text-sm mb-1.5">Integrated e-Governance</p>
-            <p class="text-neutral-800 text-xs leading-relaxed">Raise tickets for hostels, academics, IT & more. AI
-              prioritizes issues for quick resolutions.</p>
           </div>
-          <!-- Feature 5 -->
-          <div class="bg-neutral-50 rounded-2xl p-5 hover-lift border border-neutral-100">
-            <div class="w-11 h-11 bg-primary-100 rounded-xl flex items-center justify-center mb-3">
-              <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          <div class="accordion-item bg-white rounded-xl border border-neutral-200 shadow-sm overflow-hidden">
+            <button
+              class="accordion-btn w-full flex items-center justify-between p-5 py-4 text-left font-semibold text-primary-700 hover:bg-primary-50/50 transition-colors"
+              aria-expanded="false">
+              <span>Unified Fee & Scholarship Portal</span>
+              <svg class="acc-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0 ml-3" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
+            </button>
+            <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300">
+              <p class="px-5 pb-5 text-neutral-800 text-sm leading-relaxed">AI-driven transparent management of
+                receipts, payments, scholarship eligibility and reminders.</p>
             </div>
-            <p class="font-semibold text-primary-700 text-sm mb-1.5">Unified Fee & Scholarship Portal</p>
-            <p class="text-neutral-800 text-xs leading-relaxed">AI-driven transparent management of receipts, payments,
-              scholarship eligibility and reminders.</p>
           </div>
-          <!-- Feature 6 -->
-          <div class="bg-neutral-50 rounded-2xl p-5 hover-lift border border-neutral-100">
-            <div class="w-11 h-11 bg-accent-100 rounded-xl flex items-center justify-center mb-3">
-              <svg class="w-5 h-5 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2p.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          <div class="accordion-item bg-white rounded-xl border border-neutral-200 shadow-sm overflow-hidden">
+            <button
+              class="accordion-btn w-full flex items-center justify-between p-5 py-4 text-left font-semibold text-primary-700 hover:bg-primary-50/50 transition-colors"
+              aria-expanded="false">
+              <span>Connected Campus Experience</span>
+              <svg class="acc-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0 ml-3" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
+            </button>
+            <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300">
+              <p class="px-5 pb-5 text-neutral-800 text-sm leading-relaxed">AI-enabled security, navigation, ID
+                verification, automated helpdesks & fully connected experience.</p>
             </div>
-            <p class="font-semibold text-primary-700 text-sm mb-1.5">Connected Campus Experience</p>
-            <p class="text-neutral-800 text-xs leading-relaxed">AI-enabled security, navigation, ID verification,
-              automated helpdesks & fully connected experience.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Section 4: Rankings -->
-  <section class="bg-[#0A0240]">
-    <div class="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-center md:justify-between flex-wrap gap-5 md:gap-0">
-        <img src="https://in6cdn.npfs.co/uploads/template/6438/1116/publish/images/award1.png" alt=""
-          class="h-14 md:h-auto">
-        <img src="https://in6cdn.npfs.co/uploads/template/6438/1116/publish/images/award3.png" alt=""
-          class="h-14 md:h-auto">
-        <img src="https://in6cdn.npfs.co/uploads/template/6438/1116/publish/images/award4.png" alt=""
-          class="h-14 md:h-auto">
+  <!-- SECTION 12: AWARDS & RANKING -->
+  <section class="py-16 bg-gradient-to-b from-neutral-50 to-neutral-200 relative overflow-hidden">
+    <div
+      class="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-3/4 bg-blue-100 rounded-full mix-blend-multiply filter blur-[100px] opacity-50 pointer-events-none z-0">
+    </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="text-center mb-12 md:mb-16 reveal">
+        <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-black text-primary-600 mb-3">Be A Part of Top
+          Rated University
+        </h2>
+        <div class="w-20 md:w-40 h-1 bg-gradient-to-r from-accent-400 to-accent-600 mx-auto rounded-full mb-4"></div>
+      </div>
+
+      <!-- Carousel wrapper -->
+      <div class="relative reveal">
+        <!-- Prev Button -->
+        <button id="awardsPrev"
+          class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-3 md:-translate-x-5 z-10 w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-md border border-neutral-200 text-neutral-500 hover:text-primary-600 hover:border-primary-300 transition-colors"
+          aria-label="Previous award">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+
+        <!-- Next Button -->
+        <button id="awardsNext"
+          class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-3 md:translate-x-5 z-10 w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-md border border-neutral-200 text-neutral-500 hover:text-primary-600 hover:border-primary-300 transition-colors"
+          aria-label="Next award">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+
+        <!-- Embla viewport -->
+        <div class="awards-embla overflow-hidden mx-4 md:mx-8">
+          <div class="flex ml-[-1.5rem]">
+
+            <!-- Slide 1 — Certificate of Excellence -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl border border-neutral-100 shadow-sm overflow-hidden h-full flex flex-col">
+                <div class="aspect-[4/3] overflow-hidden">
+                  <img src="https://geetauniversity.edu.in/uploads/all/1714/CERTIFICATE-OF-EXCELLENCE.png"
+                    alt="Certificate of Excellence" loading="lazy" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-6 text-center flex flex-col flex-grow">
+                  <h3
+                    class="font-heading font-black text-primary-600 text-sm md:text-base uppercase tracking-wide mb-4 leading-snug">
+                    CERTIFICATE OF EXCELLENCE</h3>
+                  <div class="border-t border-neutral-200 pt-4 mt-auto">
+                    <p class="text-neutral-500 text-xs uppercase tracking-widest font-semibold mb-2">Presented By:</p>
+                    <p class="font-bold text-primary-600 text-sm">Sh. Nitin Gadkari</p>
+                    <p class="text-neutral-500 text-xs">Minister of Road Transport &amp; Highways of India</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 — Best Group of Colleges -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl border border-neutral-100 shadow-sm overflow-hidden h-full flex flex-col">
+                <div class="aspect-[4/3] overflow-hidden">
+                  <img
+                    src="https://geetauniversity.edu.in/uploads/all/1716/AWARD-FOR-BEST-GROUP-OF-COLLEGES-IN-DELHI,-NCR.webp"
+                    alt="Award for Best Group of Colleges in Delhi/NCR" loading="lazy"
+                    class="w-full h-full object-cover" />
+                </div>
+                <div class="p-6 text-center flex flex-col flex-grow">
+                  <h3
+                    class="font-heading font-black text-primary-600 text-sm md:text-base uppercase tracking-wide mb-4 leading-snug">
+                    AWARD FOR BEST GROUP OF COLLEGES IN DELHI/NCR</h3>
+                  <div class="border-t border-neutral-200 pt-4 mt-auto">
+                    <p class="text-neutral-500 text-xs uppercase tracking-widest font-semibold mb-2">Presented By:</p>
+                    <p class="font-bold text-primary-600 text-sm">Ms. Raveena Tandon</p>
+                    <p class="text-neutral-500 text-xs">Bollywood Actress</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 — Ranked 1st among private B-schools -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl border border-neutral-100 shadow-sm overflow-hidden h-full flex flex-col">
+                <div class="aspect-[4/3] overflow-hidden">
+                  <img
+                    src="https://geetauniversity.edu.in/uploads/all/1713/Global-Excellence-&amp;-leadership-Award-2025.webp"
+                    alt="Award for Ranked 1st among Top Private B-Schools" loading="lazy"
+                    class="w-full h-full object-cover" />
+                </div>
+                <div class="p-6 text-center flex flex-col flex-grow">
+                  <h3
+                    class="font-heading font-black text-primary-600 text-sm md:text-base uppercase tracking-wide mb-4 leading-snug">
+                    AWARD FOR RANKED <span
+                      style="font-family: Arial, Helvetica, sans-serif !important;">1</span><sup>st</sup>
+                    AMONG TOP PRIVATE B-SCHOOLS IN DELHI NCR</h3>
+                  <div class="border-t border-neutral-200 pt-4 mt-auto">
+                    <p class="text-neutral-500 text-xs uppercase tracking-widest font-semibold mb-2">Presented By:</p>
+                    <p class="font-bold text-primary-600 text-sm">Ms. Bipasha Basu</p>
+                    <p class="text-neutral-500 text-xs">Bollywood Actress</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 4 — Best Education Group -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl border border-neutral-100 shadow-sm overflow-hidden h-full flex flex-col">
+                <div class="aspect-[4/3] overflow-hidden">
+                  <img src="https://geetauniversity.edu.in/uploads/all/1717/AWARD-FOR-BEST-EDUCATION-GROUP.webp"
+                    alt="Award for Best Education Group" loading="lazy" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-6 text-center flex flex-col flex-grow">
+                  <h3
+                    class="font-heading font-black text-primary-600 text-sm md:text-base uppercase tracking-wide mb-4 leading-snug">
+                    AWARD FOR BEST EDUCATION GROUP</h3>
+                  <div class="border-t border-neutral-200 pt-4 mt-auto">
+                    <p class="text-neutral-500 text-xs uppercase tracking-widest font-semibold mb-2">Presented By:</p>
+                    <p class="font-bold text-primary-600 text-sm">Smt. Sharmila Tagore</p>
+                    <p class="text-neutral-500 text-xs">Padma Bhushan Awardee</p>
+                    <p class="font-bold text-primary-600 text-sm mt-2">Dr. C P THAKUR</p>
+                    <p class="text-neutral-500 text-xs">Member of Parliament, Rajya Sabha</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 5 — Fastest Growing University -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl border border-neutral-100 shadow-sm overflow-hidden h-full flex flex-col">
+                <div class="aspect-[4/3] overflow-hidden">
+                  <img
+                    src="https://geetauniversity.edu.in/uploads/all/1715/AWARD-FOR-FASTEST-GROWING-UNIVERSITY-OF-NORTH-INDIA.webp"
+                    alt="Award for Fastest Growing University of North India" loading="lazy"
+                    class="w-full h-full object-cover" />
+                </div>
+                <div class="p-6 text-center flex flex-col flex-grow">
+                  <h3
+                    class="font-heading font-black text-primary-600 text-sm md:text-base uppercase tracking-wide mb-4 leading-snug">
+                    AWARD FOR FASTEST GROWING UNIVERSITY OF NORTH INDIA</h3>
+                  <div class="border-t border-neutral-200 pt-4 mt-auto">
+                    <p class="text-neutral-500 text-xs uppercase tracking-widest font-semibold mb-2">Presented By:</p>
+                    <p class="font-bold text-primary-600 text-sm">Smt. Jaya Prada</p>
+                    <p class="text-neutral-500 text-xs">Bollywood Actress &amp; Former Member of Parliament</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 6 — AI & Emerging Tech Education -->
+            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
+              <div
+                class="bg-white rounded-2xl border border-neutral-100 shadow-sm overflow-hidden h-full flex flex-col">
+                <div class="aspect-[4/3] overflow-hidden">
+                  <img src="https://geetauniversity.edu.in/uploads/all/1712/awardd.webp"
+                    alt="Award for North India's Leader in AI & Emerging Tech Education" loading="lazy"
+                    class="w-full h-full object-cover" />
+                </div>
+                <div class="p-6 text-center flex flex-col flex-grow">
+                  <h3
+                    class="font-heading font-black text-primary-600 text-sm md:text-base uppercase tracking-wide mb-4 leading-snug">
+                    AWARD FOR NORTH INDIA’S LEADER IN AI &amp; EMERGING TECH EDUCATION</h3>
+                  <div class="border-t border-neutral-200 pt-4 mt-auto">
+                    <p class="text-neutral-500 text-xs uppercase tracking-widest font-semibold mb-2">Presented By:</p>
+                    <p class="font-bold text-primary-600 text-sm">Sh. Randeep Hooda</p>
+                    <p class="text-neutral-500 text-xs">Bollywood Actor</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </div>
     </div>
-    <div class="h-3 bg-accent-600" />
-
   </section>
 
-
-  <!-- 
-       SECTION 5: SCHOLARSHIP CALCULATOR
-        -->
+  <!-- SECTION 5: SCHOLARSHIP CALCULATOR  -->
   <div
-    class="w-full h-[875px] sm:h-[700px] md:h-[600px] bg-white rounded-2xl overflow-hidden shadow-md border border-neutral-200 transition-all duration-300 overlay-content:fullscreen:rounded-none">
+    class="w-full h-[875px] sm:h-[700px] md:h-[600px] transition-all duration-300 overlay-content:fullscreen:rounded-none">
 
     <iframe src="https://geetauniversity.edu.in/predictor_iframe" allowfullscreen class="w-full h-full border-0"
       title="Scholarship Calculator">
@@ -726,9 +1045,7 @@
 
 
 
-  <!-- 
-       SECTION 6: WHY JOIN GEETA UNIVERSITY
-        -->
+  <!--  SECTION 6: WHY JOIN GEETA UNIVERSITY  -->
   <section id="why-join" class="py-10 bg-neutral-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12 md:mb-16 reveal">
@@ -899,10 +1216,13 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12 md:mb-16 reveal">
         <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-black text-primary-600 mb-3">Programs Offered</h2>
-        <p class="text-neutral-800 text-base">70+ Study Programs at Diploma, UG, PG, and Ph.D. Levels</p>
+        <div class="w-20 h-1 bg-gradient-to-r from-accent-400 to-accent-600 mx-auto rounded-full mb-4"></div>
+        <p class="text-neutral-800 text-lg">70+ Study Programs at Diploma, UG, PG, and Ph.D. Levels</p>
       </div>
       <div class="grid md:grid-cols-2 gap-4 reveal" id="programsAccordion">
-        <div class="prog-item border-b border-neutral-200 pb-1"><button
+        <!-- 1. Computer Science & Engineering -->
+        <div class="prog-item border-b border-neutral-200 pb-1">
+          <button
             class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
             aria-expanded="false"><span>Computer Science & Engineering</span><svg
               class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
@@ -910,188 +1230,52 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
             </svg></button>
           <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
-            <div class="px-2 pb-4 text-neutral-600 space-y-2">
-              <p class="font-medium text-primary-600">UG:</p>
-              <ul class="list-disc pl-5 space-y-1 text-neutral-800">
-                <li>B.Tech. CSE</li>
-                <li>B.Tech. (H) CSE — AI/ML</li>
-                <li>B.Tech. (H) CSE — Cyber Security</li>
-                <li>B.Tech. (H) CSE — Data Science</li>
-              </ul>
-              <p class="font-medium text-primary-600 mt-2">PG:</p>
-              <ul class="list-disc pl-5 space-y-1 text-neutral-800">
-                <li>M.Tech. CSE</li>
-              </ul><a href="#banner_form"
-                class="inline-block mt-3 text-accent-600 font-semibold text-xs hover:underline">Apply Now →</a>
+            <div class="px-2 pb-4 text-neutral-600 space-y-3">
+              <div>
+                <p class="font-medium text-primary-600 mb-1">UG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering/btech-cse"
+                      target="_blank">B.Tech. Hons. CSE (Computer Science & Engineering)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering/btech-artificial-intelligence-and-machine-learning"
+                      target="_blank">B.Tech. Hons. CSE (Artificial Intelligence & Machine Learning)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering/btech-cyber-security"
+                      target="_blank">B.Tech. Hons. CSE (Cyber Security)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering/btech-full-stack-web-development"
+                      target="_blank">B.Tech. Hons. CSE (Full Stack Web Development)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering/btech-data-science-and-business-analytics"
+                      target="_blank">B.Tech. Hons. CSE (Data Science & Business Analytics)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">PG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering/mtech-cse"
+                      target="_blank">M.Tech. CSE (Computer Science & Engineering)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">Ph.D.:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600" href="https://geetauniversity.edu.in/phd-cse"
+                      target="_blank">Ph.D. CSE (Computer Science & Engineering)</a></li>
+                </ul>
+              </div>
+              <a href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering"
+                class="inline-block mt-3 text-accent-600 font-bold text-xs uppercase tracking-wider hover:underline">View
+                Details →</a>
             </div>
           </div>
         </div>
-        <div class="prog-item border-b border-neutral-200 pb-1"><button
-            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
-            aria-expanded="false"><span>Computer Applications</span><svg
-              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg></button>
-          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
-            <div class="px-2 pb-4 text-neutral-600 space-y-2">
-              <p class="font-medium text-primary-600">UG:</p>
-              <ul class="list-disc pl-5 space-y-1 text-neutral-800">
-                <li>BCA</li>
-                <li>BCA Hons. (Cyber Security)</li>
-                <li>BCA Hons. (Data Science)</li>
-                <li>BCA Hons. (AI/ML)</li>
-              </ul>
-              <p class="font-medium text-primary-600 mt-2">PG:</p>
-              <ul class="list-disc pl-5 space-y-1 text-neutral-800">
-                <li>MCA</li>
-              </ul><a href="#banner_form"
-                class="inline-block mt-3 text-accent-600 font-semibold text-xs hover:underline">Apply Now →</a>
-            </div>
-          </div>
-        </div>
-        <div class="prog-item border-b border-neutral-200 pb-1"><button
-            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
-            aria-expanded="false"><span>Business Management</span><svg
-              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg></button>
-          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
-            <div class="px-2 pb-4 text-neutral-600 space-y-2">
-              <p class="font-medium text-primary-600">UG:</p>
-              <ul class="list-disc pl-5 space-y-1 text-neutral-800">
-                <li>BBA</li>
-                <li>BBA Hons. (ACCA UK)</li>
-                <li>BBA Hons. (AI & Data Analytics)</li>
-                <li>BBA Hons. (HR / Marketing / FinTech)</li>
-              </ul>
-              <p class="font-medium text-primary-600 mt-2">PG:</p>
-              <ul class="list-disc pl-5 space-y-1 text-neutral-800">
-                <li>MBA (Finance / Marketing / HR / Supply Chain)</li>
-              </ul><a href="#banner_form"
-                class="inline-block mt-3 text-accent-600 font-semibold text-xs hover:underline">Apply Now →</a>
-            </div>
-          </div>
-        </div>
-        <div class="prog-item border-b border-neutral-200 pb-1"><button
-            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
-            aria-expanded="false"><span>Commerce</span><svg
-              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg></button>
-          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
-            <div class="px-2 pb-4 text-neutral-600 space-y-2">
-              <ul class="list-disc pl-5 space-y-1 text-neutral-800">
-                <li>B.Com / B.Com Hons. (ACCA UK / Taxation / Banking)</li>
-                <li>M.Com</li>
-              </ul><a href="#banner_form"
-                class="inline-block mt-3 text-accent-600 font-semibold text-xs hover:underline">Apply Now →</a>
-            </div>
-          </div>
-        </div>
-        <div class="prog-item border-b border-neutral-200 pb-1"><button
-            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
-            aria-expanded="false"><span>Pharmacy</span><svg
-              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg></button>
-          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
-            <div class="px-2 pb-4 text-neutral-600 space-y-2">
-              <ul class="list-disc pl-5 space-y-1 text-neutral-800">
-                <li>D.Pharm / B.Pharm</li>
-                <li>M.Pharm (Pharmaceutics / Pharmacology / Chemistry)</li>
-              </ul><a href="#banner_form"
-                class="inline-block mt-3 text-accent-600 font-semibold text-xs hover:underline">Apply Now →</a>
-            </div>
-          </div>
-        </div>
-        <div class="prog-item border-b border-neutral-200 pb-1"><button
-            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
-            aria-expanded="false"><span>Law</span><svg
-              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg></button>
-          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
-            <div class="px-2 pb-4 text-neutral-600 space-y-2">
-              <ul class="list-disc pl-5 space-y-1 text-neutral-800">
-                <li>BA LL.B. (H) / BBA LL.B. (H)</li>
-                <li>LLM</li>
-              </ul><a href="#banner_form"
-                class="inline-block mt-3 text-accent-600 font-semibold text-xs hover:underline">Apply Now →</a>
-            </div>
-          </div>
-        </div>
-        <div class="prog-item border-b border-neutral-200 pb-1"><button
-            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
-            aria-expanded="false"><span>Hospitality & Hotel Management</span><svg
-              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg></button>
-          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
-            <div class="px-2 pb-4 text-neutral-600 space-y-2">
-              <ul class="list-disc pl-5 space-y-1 text-neutral-800">
-                <li>Diploma in Hotel Management</li>
-                <li>B.Sc. Hons. Hotel Management</li>
-              </ul><a href="#banner_form"
-                class="inline-block mt-3 text-accent-600 font-semibold text-xs hover:underline">Apply Now →</a>
-            </div>
-          </div>
-        </div>
-        <div class="prog-item border-b border-neutral-200 pb-1"><button
-            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
-            aria-expanded="false"><span>Humanities & Social Sciences</span><svg
-              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg></button>
-          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
-            <div class="px-2 pb-4 text-neutral-600 space-y-2">
-              <ul class="list-disc pl-5 space-y-1 text-neutral-800">
-                <li>BA Hons. (Political Science / Psychology / Economics)</li>
-                <li>MA (Political Science / Psychology)</li>
-              </ul><a href="#banner_form"
-                class="inline-block mt-3 text-accent-600 font-semibold text-xs hover:underline">Apply Now →</a>
-            </div>
-          </div>
-        </div>
-        <div class="prog-item border-b border-neutral-200 pb-1"><button
-            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
-            aria-expanded="false"><span>Forensic Science</span><svg
-              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg></button>
-          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
-            <div class="px-2 pb-4 text-neutral-600 space-y-2">
-              <ul class="list-disc pl-5 space-y-1 text-neutral-800">
-                <li>B.Sc. Forensic Sciences / M.Sc. Forensic Sciences</li>
-              </ul><a href="#banner_form"
-                class="inline-block mt-3 text-accent-600 font-semibold text-xs hover:underline">Apply Now →</a>
-            </div>
-          </div>
-        </div>
-        <div class="prog-item border-b border-neutral-200 pb-1"><button
-            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
-            aria-expanded="false"><span>Agricultural Studies</span><svg
-              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg></button>
-          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
-            <div class="px-2 pb-4 text-neutral-600 space-y-2">
-              <ul class="list-disc pl-5 space-y-1 text-neutral-800">
-                <li>B.Sc. (H) Agriculture / M.Sc. Agronomy</li>
-              </ul><a href="#banner_form"
-                class="inline-block mt-3 text-accent-600 font-semibold text-xs hover:underline">Apply Now →</a>
-            </div>
-          </div>
-        </div>
-        <div class="prog-item border-b border-neutral-200 pb-1"><button
+
+        <!-- 2. Civil Engineering -->
+        <div class="prog-item border-b border-neutral-200 pb-1">
+          <button
             class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
             aria-expanded="false"><span>Civil Engineering</span><svg
               class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
@@ -1099,12 +1283,507 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
             </svg></button>
           <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
-            <div class="px-2 pb-4 text-neutral-600 space-y-2">
-              <ul class="list-disc pl-5 space-y-1 text-neutral-800">
-                <li>B.Tech. Civil / B.Tech. Civil (AI & Digital)</li>
-                <li>M.Tech. Civil (Transport / Construction)</li>
-              </ul><a href="#banner_form"
-                class="inline-block mt-3 text-accent-600 font-semibold text-xs hover:underline">Apply Now →</a>
+            <div class="px-2 pb-4 text-neutral-600 space-y-3">
+              <div>
+                <p class="font-medium text-primary-600 mb-1">UG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering/btech-civil-engineering"
+                      target="_blank">B.Tech. Hons. Civil Engineering</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering/btech-civil-ai-dt"
+                      target="_blank">B.Tech. Hons. Civil Engineering (AI & Digital Transformation)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">PG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering/mtech-civil-transportation-engineering"
+                      target="_blank">M.Tech. Civil Engineering (Transportation Engineering)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering/mtech-civil-construction-technology-and-management"
+                      target="_blank">M.Tech. Civil Engineering (Construction Technology Management)</a></li>
+                </ul>
+              </div>
+              <a href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering"
+                class="inline-block mt-3 text-accent-600 font-bold text-xs uppercase tracking-wider hover:underline">View
+                Details →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Computer Applications -->
+        <div class="prog-item border-b border-neutral-200 pb-1">
+          <button
+            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
+            aria-expanded="false"><span>Computer Applications</span><svg
+              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
+              stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg></button>
+          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
+            <div class="px-2 pb-4 text-neutral-600 space-y-3">
+              <div>
+                <p class="font-medium text-primary-600 mb-1">UG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering/bca"
+                      target="_blank">BCA Hons. (Computer Applications)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering/bca-artificial-intelligence-and-machine-learning"
+                      target="_blank">BCA Hons. (Artificial Intelligence & Machine Learning)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering/bca-cyber-security"
+                      target="_blank">BCA Hons. (Cyber Security)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering/bca-data-science-and-business-analytics"
+                      target="_blank">BCA Hons. (Data Science & Business Analytics)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">PG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering/mca"
+                      target="_blank">MCA (Master of Computer Applications)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">Ph.D.:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600" href="https://geetauniversity.edu.in/phd-computer-application"
+                      target="_blank">Ph.D. (Computer Applications)</a></li>
+                </ul>
+              </div>
+              <a href="https://geetauniversity.edu.in/programs/school-of-computer-science-and-engineering"
+                class="inline-block mt-3 text-accent-600 font-bold text-xs uppercase tracking-wider hover:underline">View
+                Details →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Business Management -->
+        <div class="prog-item border-b border-neutral-200 pb-1">
+          <button
+            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
+            aria-expanded="false"><span>Business Management</span><svg
+              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
+              stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg></button>
+          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
+            <div class="px-2 pb-4 text-neutral-600 space-y-3">
+              <div>
+                <p class="font-medium text-primary-600 mb-1">UG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/bba"
+                      target="_blank">BBA Hons. (Bachelor of Business Administration)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/bba-international-accounting"
+                      target="_blank">BBA Hons. (International Accounting with ACCA UK)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/bba-human-resource-management"
+                      target="_blank">BBA Hons. (Human Resource Management)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/bba-export-and-import-management"
+                      target="_blank">BBA Hons. (Import & Export Management)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/bba-banking-and-finance"
+                      target="_blank">BBA Hons. (Banking & Finance)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/bba-marketing"
+                      target="_blank">BBA Hons. (Marketing)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/bba-fintech"
+                      target="_blank">BBA Hons. (FinTech)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/bba-artificial-intelligence-and-data-analytics"
+                      target="_blank">BBA Hons. (Artificial Intelligence & Data Analytics)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">PG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/mba-finance"
+                      target="_blank">MBA (Finance)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/mba-marketing"
+                      target="_blank">MBA (Marketing)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/mba-human-resource-management"
+                      target="_blank">MBA (Human Resource Management)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/mba-supply-chain-management-and-logistics"
+                      target="_blank">MBA (Supply Chain Management)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/mba-pharmaceutical-management"
+                      target="_blank">MBA (Pharmaceutical Management)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">Ph.D.:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600" href="https://geetauniversity.edu.in/phd-management"
+                      target="_blank">Ph.D. (Business & Management)</a></li>
+                </ul>
+              </div>
+              <a href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management"
+                class="inline-block mt-3 text-accent-600 font-bold text-xs uppercase tracking-wider hover:underline">View
+                Details →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Commerce -->
+        <div class="prog-item border-b border-neutral-200 pb-1">
+          <button
+            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
+            aria-expanded="false"><span>Commerce</span><svg
+              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
+              stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg></button>
+          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
+            <div class="px-2 pb-4 text-neutral-600 space-y-3">
+              <div>
+                <p class="font-medium text-primary-600 mb-1">UG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/bcom"
+                      target="_blank">B.Com. Hons. (Bachelor of Commerce)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/bcom-auditing-and-taxation"
+                      target="_blank">B.Com. Hons. (Auditing & Taxation)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/bcom-banking-and-insurance"
+                      target="_blank">B.Com. Hons. (Banking & Insurance)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/bcom-international-accounting"
+                      target="_blank">B.Com. Hons. (International Accounting with ACCA UK)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">PG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management/mcom"
+                      target="_blank">M.Com. (Master of Commerce)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">Ph.D.:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600" href="https://geetauniversity.edu.in/phd-commerce"
+                      target="_blank">Ph.D. (Commerce)</a></li>
+                </ul>
+              </div>
+              <a href="https://geetauniversity.edu.in/programs/school-of-commerce-and-business-management"
+                class="inline-block mt-3 text-accent-600 font-bold text-xs uppercase tracking-wider hover:underline">View
+                Details →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Pharmacy -->
+        <div class="prog-item border-b border-neutral-200 pb-1">
+          <button
+            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
+            aria-expanded="false"><span>Pharmacy</span><svg
+              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
+              stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg></button>
+          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
+            <div class="px-2 pb-4 text-neutral-600 space-y-3">
+              <div>
+                <p class="font-medium text-primary-600 mb-1">Diploma:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/geeta-institute-of-pharmacy/d-pharmacy"
+                      target="_blank">D.Pharm. (Diploma in Pharmacy)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">UG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/geeta-institute-of-pharmacy/b-pharmacy"
+                      target="_blank">B.Pharm. (Bachelor of Pharmacy)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">PG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/geeta-institute-of-pharmacy/m-pharmacy-in-pharmaceutics"
+                      target="_blank">M.Pharm. (Pharmaceutics)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/geeta-institute-of-pharmacy/m-pharmacy-in-pharmacology"
+                      target="_blank">M.Pharm. (Pharmacology)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/geeta-institute-of-pharmacy/m-pharmacy-in-pharmaceutical-chemistry"
+                      target="_blank">M.Pharm. (Pharmaceutical Chemistry)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">Ph.D.:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600" href="https://geetauniversity.edu.in/phd-pharmacy"
+                      target="_blank">Ph.D. (Pharmaceutical Sciences)</a></li>
+                </ul>
+              </div>
+              <a href="https://geetauniversity.edu.in/programs/geeta-institute-of-pharmacy"
+                class="inline-block mt-3 text-accent-600 font-bold text-xs uppercase tracking-wider hover:underline">View
+                Details →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Agricultural Studies -->
+        <div class="prog-item border-b border-neutral-200 pb-1">
+          <button
+            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
+            aria-expanded="false"><span>Agricultural Studies</span><svg
+              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
+              stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg></button>
+          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
+            <div class="px-2 pb-4 text-neutral-600 space-y-3">
+              <div>
+                <p class="font-medium text-primary-600 mb-1">UG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-agricultural-studies/bsc-agriculture"
+                      target="_blank">B.Sc. Hons. (Agriculture)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">PG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-agricultural-studies/msc-agriculture-agronomy"
+                      target="_blank">M.Sc. Agriculture (Agronomy)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">Ph.D.:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600" href="https://geetauniversity.edu.in/phd-agriculture"
+                      target="_blank">Ph.D. (Agriculture)</a></li>
+                </ul>
+              </div>
+              <a href="https://geetauniversity.edu.in/programs/school-of-agricultural-studies"
+                class="inline-block mt-3 text-accent-600 font-bold text-xs uppercase tracking-wider hover:underline">View
+                Details →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Law -->
+        <div class="prog-item border-b border-neutral-200 pb-1">
+          <button
+            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
+            aria-expanded="false"><span>Law</span><svg
+              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
+              stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg></button>
+          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
+            <div class="px-2 pb-4 text-neutral-600 space-y-3">
+              <div>
+                <p class="font-medium text-primary-600 mb-1">UG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li>BA. LL.B.*</li>
+                  <li>BBA LL.B.*</li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">PG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/geeta-global-law-school/llm" target="_blank">Master
+                      of Law (LLM)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">Ph.D.:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600" href="https://geetauniversity.edu.in/phd-law"
+                      target="_blank">Ph.D. (Law)</a></li>
+                </ul>
+              </div>
+              <a href="https://geetauniversity.edu.in/programs/geeta-global-law-school"
+                class="inline-block mt-3 text-accent-600 font-bold text-xs uppercase tracking-wider hover:underline">View
+                Details →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Hospitality & Hotel Management -->
+        <div class="prog-item border-b border-neutral-200 pb-1">
+          <button
+            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
+            aria-expanded="false"><span>Hospitality & Hotel Management</span><svg
+              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
+              stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg></button>
+          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
+            <div class="px-2 pb-4 text-neutral-600 space-y-3">
+              <div>
+                <p class="font-medium text-primary-600 mb-1">Diploma:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600" href="" target="_blank">Diploma in Hotel Management (Residential
+                      Program)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">UG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-hospitality-and-hotel-management/bsc-hotel-management"
+                      target="_blank">B.Sc. Hons. (Hotel Management)</a></li>
+                </ul>
+              </div>
+              <a href="https://geetauniversity.edu.in/programs/school-of-hospitality-and-hotel-management"
+                class="inline-block mt-3 text-accent-600 font-bold text-xs uppercase tracking-wider hover:underline">View
+                Details →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. Nutrition & Dietetics -->
+        <div class="prog-item border-b border-neutral-200 pb-1">
+          <button
+            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
+            aria-expanded="false"><span>Nutrition & Dietetics</span><svg
+              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
+              stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg></button>
+          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
+            <div class="px-2 pb-4 text-neutral-600 space-y-3">
+              <div>
+                <p class="font-medium text-primary-600 mb-1">UG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-health-and-allied-sciences/bsc-nutrition-and-dietetics"
+                      target="_blank">B.Sc. Hons. (Nutrition & Dietetics)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">PG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-health-and-allied-sciences/msc-nutrition-and-dietetics"
+                      target="_blank">M.Sc. (Nutrition & Dietetics)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">Ph.D.:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600" href="https://geetauniversity.edu.in/phd-nutrition-and-dietetics"
+                      target="_blank">Ph.D. (Nutrition & Dietetics)</a></li>
+                </ul>
+              </div>
+              <a href="https://geetauniversity.edu.in/programs/school-of-health-and-allied-sciences"
+                class="inline-block mt-3 text-accent-600 font-bold text-xs uppercase tracking-wider hover:underline">View
+                Details →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11. Humanities & Social Sciences -->
+        <div class="prog-item border-b border-neutral-200 pb-1">
+          <button
+            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
+            aria-expanded="false"><span>Humanities & Social Sciences</span><svg
+              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
+              stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg></button>
+          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
+            <div class="px-2 pb-4 text-neutral-600 space-y-3">
+              <div>
+                <p class="font-medium text-primary-600 mb-1">UG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600" href="https://geetauniversity.edu.in/bsc-psychology"
+                      target="_blank">B.Sc. Hons. (Psychology)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-humanities-and-social-science/ba-political-science"
+                      target="_blank">B.A. Hons. (Political Science)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-humanities-and-social-science/ba-economics"
+                      target="_blank">B.A. Hons. (Economics)</a></li>
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/programs/school-of-humanities-and-social-science/ba-psychology"
+                      target="_blank">B.A. Hons. (Psychology)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">PG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li>M.A. (Political Science)</li>
+                  <li>M.A. (Psychology)</li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">Ph.D.:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600" href="https://geetauniversity.edu.in/phd-psychology"
+                      target="_blank">Ph.D. (Psychology)</a></li>
+                  <li><a class="hover:text-accent-600" href="https://geetauniversity.edu.in/phd-political-science"
+                      target="_blank">Ph.D. (Political Science)</a></li>
+                </ul>
+              </div>
+              <a href="https://geetauniversity.edu.in/programs/school-of-humanities-and-social-science"
+                class="inline-block mt-3 text-accent-600 font-bold text-xs uppercase tracking-wider hover:underline">View
+                Details →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12. Forensic Science -->
+        <div class="prog-item border-b border-neutral-200 pb-1">
+          <button
+            class="prog-btn w-full flex items-center justify-between py-4 px-2 text-left font-semibold text-primary-700 uppercase tracking-wide hover:text-accent-500 transition-colors text-lg"
+            aria-expanded="false"><span>Forensic Science</span><svg
+              class="prog-icon w-5 h-5 text-neutral-400 transition-transform duration-300 shrink-0" fill="none"
+              stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg></button>
+          <div class="prog-content max-h-0 overflow-hidden transition-all duration-300">
+            <div class="px-2 pb-4 text-neutral-600 space-y-3">
+              <div>
+                <p class="font-medium text-primary-600 mb-1">UG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/school-of-forensic-sciences/bsc-forensic-science"
+                      target="_blank">B.Sc. Hons. (Forensic Sciences)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">PG:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600"
+                      href="https://geetauniversity.edu.in/school-of-forensic-sciences/msc-forensic-science"
+                      target="_blank">M.Sc. (Forensic Sciences)</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium text-primary-600 mb-1">Ph.D.:</p>
+                <ul class="list-disc pl-5 space-y-1 text-neutral-800 text-sm">
+                  <li><a class="hover:text-accent-600" href="https://geetauniversity.edu.in/phd-forensic-science"
+                      target="_blank">Ph.D. (Forensic Sciences)</a></li>
+                </ul>
+              </div>
+              <a href="https://geetauniversity.edu.in/school-of-forensic-sciences"
+                class="inline-block mt-3 text-accent-600 font-bold text-xs uppercase tracking-wider hover:underline">View
+                Details →</a>
             </div>
           </div>
         </div>
@@ -1124,21 +1803,17 @@
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10 reveal">
 
-      <div class="text-center mb-20">
+      <div class="text-center mb-10">
         <h2 class="text-4xl md:text-5xl font-extrabold text-neutral-900 tracking-tight mb-4">
           Your Path to Success <br class="hidden md:block" />
           <span class="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-accent-600 to-accent-400">
             Follow The Below Steps
           </span>
         </h2>
-        <p class="text-xl md:text-2xl font-medium text-neutral-600 mt-6 max-w-2xl mx-auto">
-          Complete your seamless admission process via
-          <span class="font-bold text-accent-600 tracking-wider">GUTS</span>
-        </p>
       </div>
 
       <div
-        class="bg-white/80 backdrop-blur-md border border-white/50 rounded-[2.5rem] shadow-2xl py-16 px-6 md:px-12 relative">
+        class="bg-white/80 backdrop-blur-md border border-white/50 rounded-[2.5rem] shadow-2xl py-10 px-6 md:px-12 relative">
 
         <div
           class="hidden lg:block absolute top-[112px] left-[10%] right-[10%] h-1 bg-gradient-to-r from-accent-100 via-accent-400 to-accent-100 rounded-full z-0">
@@ -1232,178 +1907,9 @@
   </section>
 
 
-
-  <!-- SECTION 10: TESTIMONIALS — From Campus To Corporate Success -->
-  <section class="py-16 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12 md:mb-16 reveal">
-        <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-black text-primary-600 mb-3">From Campus To
-          Corporate Success</h2>
-      </div>
-
-      <!-- Carousel wrapper -->
-      <div class="relative reveal">
-        <!-- Prev Button -->
-        <button id="testimonialPrev"
-          class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-3 md:-translate-x-5 z-10 w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-md border border-neutral-200 text-neutral-800 hover:text-primary-600 hover:border-primary-300 transition-colors"
-          aria-label="Previous testimonial">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
-          </svg>
-        </button>
-
-        <!-- Next Button -->
-        <button id="testimonialNext"
-          class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-3 md:translate-x-5 z-10 w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-md border border-neutral-200 text-neutral-800 hover:text-primary-600 hover:border-primary-300 transition-colors"
-          aria-label="Next testimonial">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-          </svg>
-        </button>
-
-        <!-- Embla viewport -->
-        <div class="testimonial-embla overflow-hidden mx-4 md:mx-8">
-          <div class="flex ml-[-1.5rem]">
-
-            <!-- Slide 1 — Riya -->
-            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
-              <div
-                class="bg-neutral-50 rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
-                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
-                  <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=75" alt="Riya"
-                    class="w-full h-full object-cover" />
-                </div>
-                <p class="font-semibold text-neutral-800 text-base mb-1">Riya</p>
-                <p class="font-bold text-primary-600 text-sm mb-4">Package - 22 LPA</p>
-                <p class="text-neutral-800 text-sm leading-relaxed italic">My journey at Geeta University was impactful.
-                  The lively campus and well-established industry exposure led the way to my successful placement,
-                  empowering me to succeed in my career.</p>
-              </div>
-            </div>
-
-            <!-- Slide 2 — Monty -->
-            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
-              <div
-                class="bg-neutral-50 rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
-                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
-                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=75" alt="Monty"
-                    class="w-full h-full object-cover" />
-                </div>
-                <p class="font-semibold text-neutral-800 text-base mb-1">Monty</p>
-                <p class="font-bold text-primary-600 text-sm mb-4">Package - 24 LPA</p>
-                <p class="text-neutral-800 text-sm leading-relaxed italic">Gained confidence and perseverance from Geeta
-                  University's campus life and learning culture. I was able to overcome obstacles and create a solid
-                  professional future thanks to the useful lessons and industry-focused approach.</p>
-              </div>
-            </div>
-
-            <!-- Slide 3 — Rahul Mor -->
-            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
-              <div
-                class="bg-neutral-50 rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
-                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
-                  <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=75" alt="Rahul Mor"
-                    class="w-full h-full object-cover" />
-                </div>
-                <p class="font-semibold text-neutral-800 text-base mb-1">Rahul Mor</p>
-                <p class="font-bold text-primary-600 text-sm mb-4">Package - 25 LPA</p>
-                <p class="text-neutral-800 text-sm leading-relaxed italic">Geeta University helped me with
-                  communication, confidence, and real-world skills through structured training, expert mentoring, and
-                  placement preparation, which empowered me to excel in real-world corporate environments.</p>
-              </div>
-            </div>
-
-            <!-- Slide 4 — Sneha Verma -->
-            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
-              <div
-                class="bg-neutral-50 rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
-                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
-                  <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=75" alt="Sneha Verma"
-                    class="w-full h-full object-cover" />
-                </div>
-                <p class="font-semibold text-neutral-800 text-base mb-1">Sneha Verma</p>
-                <p class="font-bold text-primary-600 text-sm mb-4">Package - 20 LPA</p>
-                <p class="text-neutral-800 text-sm leading-relaxed italic">The practical exposure and internship
-                  opportunities at Geeta University gave me a competitive edge. The faculty's guidance was instrumental
-                  in shaping my career path.</p>
-              </div>
-            </div>
-
-            <!-- Slide 5 — Arjun Singh -->
-            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
-              <div
-                class="bg-neutral-50 rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
-                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
-                  <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=75" alt="Arjun Singh"
-                    class="w-full h-full object-cover" />
-                </div>
-                <p class="font-semibold text-neutral-800 text-base mb-1">Arjun Singh</p>
-                <p class="font-bold text-primary-600 text-sm mb-4">Package - 18 LPA</p>
-                <p class="text-neutral-800 text-sm leading-relaxed italic">From hackathons to placement drives, Geeta
-                  University provided every resource I needed. The campus culture fosters innovation and prepares you
-                  for the corporate world.</p>
-              </div>
-            </div>
-
-            <!-- Slide 6 — Pooja Sharma -->
-            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
-              <div
-                class="bg-neutral-50 rounded-2xl p-8 border border-neutral-100 shadow-sm text-center h-full flex flex-col items-center">
-                <div class="w-20 h-20 rounded-full border-[3px] border-accent-500 overflow-hidden mb-4 flex-shrink-0">
-                  <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=75" alt="Pooja Sharma"
-                    class="w-full h-full object-cover" />
-                </div>
-                <p class="font-semibold text-neutral-800 text-base mb-1">Pooja Sharma</p>
-                <p class="font-bold text-primary-600 text-sm mb-4">Package - 21 LPA</p>
-                <p class="text-neutral-800 text-sm leading-relaxed italic">Geeta University's industry connections and
-                  placement cell were outstanding. The mock interviews and soft skill training made all the difference
-                  in my career success.</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION: BEYOND DEGREES — Wall of Fame -->
-  <section class="relative w-full h-[400px] sm:h-[500px] md:h-[550px] lg:h-[600px] overflow-hidden">
-    <!-- Background Image -->
-    <div class="absolute inset-0">
-      <img src="https://static.npfs.co/accounts/6438/documents/2025/1/30/bg_001-gu.png"
-        alt="Geeta University Wall of Fame" class="w-full h-full object-cover object-center" />
-    </div>
-    <!-- Dark gradient overlay fading from bottom -->
-    <div class="absolute inset-0 bg-gradient-to-t from-primary-900/90 via-primary-900/50 to-transparent"></div>
-    <!-- Text content pinned to bottom -->
-    <div class="absolute inset-0 flex flex-col items-center justify-end pb-12 md:pb-16 lg:pb-20 px-4 text-center z-10">
-      <h2 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-3 md:mb-4"
-        style="font-family: 'Zilla Slab', serif;">
-        Beyond Degrees
-      </h2>
-      <p class="text-lg sm:text-xl md:text-2xl text-white/80 italic" style="font-family: 'Zilla Slab', serif;">
-        Stamps of Excellence on our Wall of Fame
-      </p>
-    </div>
-  </section>
-
   <!-- SECTION 11: GLOBALLY BENCHMARKED EDUCATION -->
   <section class="py-16 bg-white overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-      <!-- Header -->
-      <div class="text-center mb-10 md:mb-14 reveal">
-        <p class="text-accent-500 font-bold uppercase tracking-widest text-sm mb-2">A Hub Of</p>
-        <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-black text-primary-600">Globally Benchmarked
-          Education</h2>
-      </div>
-
-      <!-- World Map Image -->
-      <div class="flex justify-center mb-14 md:mb-20 reveal">
-        <img src="https://geetauniversity.edu.in/uploads/all/732/map-(1).png" alt="Geeta University Global Presence Map"
-          loading="lazy" class="w-full h-auto object-contain" />
-      </div>
 
       <!-- Universe of GU -->
       <div class="reveal mb-14 md:mb-20">
@@ -1480,50 +1986,54 @@
 
         <div class="flex animate-flags-scroll gap-10 items-center w-max">
           <!-- Set 1 -->
-          <img src="https://flagcdn.com/w160/my.png" alt="Malaysia"
+          <img src="https://geetauniversity.edu.in/uploads/all/70/conversions/4-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/id.png" alt="Indonesia"
+          <img src="https://geetauniversity.edu.in/uploads/all/71/conversions/5-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/au.png" alt="Australia"
+          <img src="https://geetauniversity.edu.in/uploads/all/72/conversions/6-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/br.png" alt="Brazil"
+          <img src="https://geetauniversity.edu.in/uploads/all/73/conversions/7-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/sg.png" alt="Singapore"
+          <img src="https://geetauniversity.edu.in/uploads/all/74/conversions/8-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/ch.png" alt="Switzerland"
+          <img src="https://geetauniversity.edu.in/uploads/all/75/conversions/11-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/rw.png" alt="Rwanda"
+          <img src="https://geetauniversity.edu.in/uploads/all/76/conversions/17-1-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/cz.png" alt="Czech Republic"
+          <img src="https://geetauniversity.edu.in/uploads/all/77/conversions/19-1-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/ru.png" alt="Russia"
+          <img src="https://geetauniversity.edu.in/uploads/all/69/conversions/9-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/vn.png" alt="Vietnam"
+          <img src="https://geetauniversity.edu.in/uploads/all/68/conversions/14-1-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/ae.png" alt="UAE"
+          <img src="https://geetauniversity.edu.in/uploads/all/67/conversions/10-full.webp" alt="Flag"
+            class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
+          <img src="https://geetauniversity.edu.in/uploads/all/66/conversions/1-1-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
           <!-- Duplicate set for seamless loop -->
-          <img src="https://flagcdn.com/w160/my.png" alt="Malaysia"
+          <img src="https://geetauniversity.edu.in/uploads/all/70/conversions/4-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/id.png" alt="Indonesia"
+          <img src="https://geetauniversity.edu.in/uploads/all/71/conversions/5-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/au.png" alt="Australia"
+          <img src="https://geetauniversity.edu.in/uploads/all/72/conversions/6-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/br.png" alt="Brazil"
+          <img src="https://geetauniversity.edu.in/uploads/all/73/conversions/7-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/sg.png" alt="Singapore"
+          <img src="https://geetauniversity.edu.in/uploads/all/74/conversions/8-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/ch.png" alt="Switzerland"
+          <img src="https://geetauniversity.edu.in/uploads/all/75/conversions/11-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/rw.png" alt="Rwanda"
+          <img src="https://geetauniversity.edu.in/uploads/all/76/conversions/17-1-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/cz.png" alt="Czech Republic"
+          <img src="https://geetauniversity.edu.in/uploads/all/77/conversions/19-1-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/ru.png" alt="Russia"
+          <img src="https://geetauniversity.edu.in/uploads/all/69/conversions/9-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/vn.png" alt="Vietnam"
+          <img src="https://geetauniversity.edu.in/uploads/all/68/conversions/14-1-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
-          <img src="https://flagcdn.com/w160/ae.png" alt="UAE"
+          <img src="https://geetauniversity.edu.in/uploads/all/67/conversions/10-full.webp" alt="Flag"
+            class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
+          <img src="https://geetauniversity.edu.in/uploads/all/66/conversions/1-1-full.webp" alt="Flag"
             class="h-14 md:h-16 rounded-md shadow-sm border border-neutral-200 object-cover" />
         </div>
       </div>
@@ -1531,164 +2041,16 @@
     </div>
   </section>
 
-  <!-- SECTION 12: AWARDS & RANKING -->
-  <section class="py-16 bg-gradient-to-b from-neutral-50 to-neutral-200 relative overflow-hidden">
-    <div
-      class="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-3/4 bg-blue-100 rounded-full mix-blend-multiply filter blur-[100px] opacity-50 pointer-events-none z-0">
-    </div>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-      <div class="text-center mb-12 md:mb-16 reveal">
-        <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-black text-primary-600 mb-3">Awards &amp; Ranking
-        </h2>
-      </div>
 
-      <!-- Carousel wrapper -->
-      <div class="relative reveal">
-        <!-- Prev Button -->
-        <button id="awardsPrev"
-          class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-3 md:-translate-x-5 z-10 w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-md border border-neutral-200 text-neutral-500 hover:text-primary-600 hover:border-primary-300 transition-colors"
-          aria-label="Previous award">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
-          </svg>
-        </button>
-
-        <!-- Next Button -->
-        <button id="awardsNext"
-          class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-3 md:translate-x-5 z-10 w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-md border border-neutral-200 text-neutral-500 hover:text-primary-600 hover:border-primary-300 transition-colors"
-          aria-label="Next award">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-          </svg>
-        </button>
-
-        <!-- Embla viewport -->
-        <div class="awards-embla overflow-hidden mx-4 md:mx-8">
-          <div class="flex ml-[-1.5rem]">
-
-            <!-- Slide 1 — Best Education Group -->
-            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
-              <div
-                class="bg-white rounded-2xl border border-neutral-100 shadow-sm overflow-hidden h-full flex flex-col">
-                <div class="aspect-[4/3] overflow-hidden">
-                  <img src="https://geetauniversity.edu.in/wp-content/uploads/2024/06/award1.jpg"
-                    alt="Award for Best Education Group" loading="lazy" class="w-full h-full object-cover" />
-                </div>
-                <div class="p-6 text-center flex flex-col flex-grow">
-                  <h3
-                    class="font-heading font-black text-primary-600 text-sm md:text-base uppercase tracking-wide mb-4 leading-snug">
-                    Award for Best Education Group</h3>
-                  <div class="border-t border-neutral-200 pt-4 mt-auto">
-                    <p class="text-neutral-500 text-xs uppercase tracking-widest font-semibold mb-2">Presented By:</p>
-                    <p class="font-bold text-primary-600 text-sm">Smt. Sharmila Tagore</p>
-                    <p class="text-neutral-500 text-xs">Padma Bhushan Awardee</p>
-                    <p class="font-bold text-primary-600 text-sm mt-2">Dr. C P Thakur</p>
-                    <p class="text-neutral-500 text-xs">Member of Parliament, Rajya Sabha</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Slide 2 — Fastest Growing University -->
-            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
-              <div
-                class="bg-white rounded-2xl border border-neutral-100 shadow-sm overflow-hidden h-full flex flex-col">
-                <div class="aspect-[4/3] overflow-hidden">
-                  <img src="https://geetauniversity.edu.in/wp-content/uploads/2024/06/award2.jpg"
-                    alt="Award for Fastest Growing University of North India" loading="lazy"
-                    class="w-full h-full object-cover" />
-                </div>
-                <div class="p-6 text-center flex flex-col flex-grow">
-                  <h3
-                    class="font-heading font-black text-primary-600 text-sm md:text-base uppercase tracking-wide mb-4 leading-snug">
-                    Award for Fastest Growing University of North India</h3>
-                  <div class="border-t border-neutral-200 pt-4 mt-auto">
-                    <p class="text-neutral-500 text-xs uppercase tracking-widest font-semibold mb-2">Presented By:</p>
-                    <p class="font-bold text-primary-600 text-sm">Smt. Jaya Prada</p>
-                    <p class="text-neutral-500 text-xs">Bollywood Actress &amp; Former Member of Parliament</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Slide 3 — AI & Emerging Tech Education -->
-            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
-              <div
-                class="bg-white rounded-2xl border border-neutral-100 shadow-sm overflow-hidden h-full flex flex-col">
-                <div class="aspect-[4/3] overflow-hidden">
-                  <img src="https://geetauniversity.edu.in/wp-content/uploads/2024/06/award3.jpg"
-                    alt="Award for North India's Leader in AI & Emerging Tech Education" loading="lazy"
-                    class="w-full h-full object-cover" />
-                </div>
-                <div class="p-6 text-center flex flex-col flex-grow">
-                  <h3
-                    class="font-heading font-black text-primary-600 text-sm md:text-base uppercase tracking-wide mb-4 leading-snug">
-                    Award for North India's Leader in AI &amp; Emerging Tech Education</h3>
-                  <div class="border-t border-neutral-200 pt-4 mt-auto">
-                    <p class="text-neutral-500 text-xs uppercase tracking-widest font-semibold mb-2">Presented By:</p>
-                    <p class="font-bold text-primary-600 text-sm">Sh. Randeep Hooda</p>
-                    <p class="text-neutral-500 text-xs">Bollywood Actor</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Slide 4 — Excellence in Placement -->
-            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
-              <div
-                class="bg-white rounded-2xl border border-neutral-100 shadow-sm overflow-hidden h-full flex flex-col">
-                <div class="aspect-[4/3] overflow-hidden">
-                  <img src="https://geetauniversity.edu.in/wp-content/uploads/2024/06/award4.jpg"
-                    alt="Award for Excellence in Placement" loading="lazy" class="w-full h-full object-cover" />
-                </div>
-                <div class="p-6 text-center flex flex-col flex-grow">
-                  <h3
-                    class="font-heading font-black text-primary-600 text-sm md:text-base uppercase tracking-wide mb-4 leading-snug">
-                    Award for Excellence in Placement</h3>
-                  <div class="border-t border-neutral-200 pt-4 mt-auto">
-                    <p class="text-neutral-500 text-xs uppercase tracking-widest font-semibold mb-2">Presented By:</p>
-                    <p class="font-bold text-primary-600 text-sm">Industry Leaders</p>
-                    <p class="text-neutral-500 text-xs">National Education Summit</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Slide 5 — Best University in Haryana -->
-            <div class="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6">
-              <div
-                class="bg-white rounded-2xl border border-neutral-100 shadow-sm overflow-hidden h-full flex flex-col">
-                <div class="aspect-[4/3] overflow-hidden">
-                  <img src="https://geetauniversity.edu.in/wp-content/uploads/2024/06/award5.jpg"
-                    alt="Award for Best University in Haryana" loading="lazy" class="w-full h-full object-cover" />
-                </div>
-                <div class="p-6 text-center flex flex-col flex-grow">
-                  <h3
-                    class="font-heading font-black text-primary-600 text-sm md:text-base uppercase tracking-wide mb-4 leading-snug">
-                    Best University in Haryana</h3>
-                  <div class="border-t border-neutral-200 pt-4 mt-auto">
-                    <p class="text-neutral-500 text-xs uppercase tracking-widest font-semibold mb-2">Presented By:</p>
-                    <p class="font-bold text-primary-600 text-sm">Education Excellence Forum</p>
-                    <p class="text-neutral-500 text-xs">Higher Education Awards</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
 
   <!-- SECTION: SKILL CENTERS & INDUSTRY INTEGRATION -->
-  <section
-    class="py-16 bg-[url('https://geetauniversity.edu.in/themes/geetau/image/testimonial-bg.webp')] overflow-hidden">
+  <section class="py-16 bg-[#FEF7EC] overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-10 reveal">
-        <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-black text-primary-600 mb-10">Skill Centers &amp;
+        <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-black text-primary-600 mb-3">Skill Centers &amp;
           Industry Integration</h2>
+        <div class="w-20 h-1 bg-gradient-to-r from-accent-400 to-accent-600 mx-auto rounded-full mb-10"></div>
       </div>
     </div>
 
@@ -1702,111 +2064,61 @@
         class="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-neutral-100 to-transparent z-10 pointer-events-none">
       </div>
 
-      <div class="flex animate-flags-scroll items-center w-max">
+      <div class="flex animate-flags-scroll items-center w-max gap-0">
         <!-- Set 1 -->
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/oracle.com" alt="Oracle" class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/aws.amazon.com" alt="AWS" class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/github.com" alt="GitHub" class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/redhat.com" alt="Red Hat Academy"
-            class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/eccouncil.org" alt="EC-Council"
-            class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/comptia.org" alt="CompTIA" class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/microsoft.com" alt="Microsoft Azure"
-            class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/vmware.com" alt="VMware" class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/hubspot.com" alt="HubSpot" class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/edx.org" alt="edX" class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/cisco.com" alt="Cisco" class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/google.com" alt="Google" class="max-h-10 max-w-full object-contain" />
-        </div>
+        <img src="https://geetauniversity.edu.in/uploads/all/1693/1.png?1771394640" alt="Microsoft Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1694/2.png?1771394640" alt="Oracle Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1695/3.png?1771394640" alt="AWS Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1696/4.png?1771394640" alt="Github Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1697/5.png?1771394640" alt="Red Hat Academy Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1698/6.png?1771394640" alt="EC Council Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1699/7.png?1771394640" alt="CompTIA Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1700/8.png?1771394640" alt="Microsoft Azure Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1701/9.png?1771394640" alt="vmware Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1702/10.png?1771394640" alt="Hubspot Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1703/11.png?1771394640" alt="EdX Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1704/12.png?1771394640" alt="Coursera Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1705/13.png?1771394640" alt="Cisco Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
         <!-- Set 2 (duplicate for seamless loop) -->
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/oracle.com" alt="Oracle" class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/aws.amazon.com" alt="AWS" class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/github.com" alt="GitHub" class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/redhat.com" alt="Red Hat Academy"
-            class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/eccouncil.org" alt="EC-Council"
-            class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/comptia.org" alt="CompTIA" class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/microsoft.com" alt="Microsoft Azure"
-            class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/vmware.com" alt="VMware" class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/hubspot.com" alt="HubSpot" class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/edx.org" alt="edX" class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/cisco.com" alt="Cisco" class="max-h-10 max-w-full object-contain" />
-        </div>
-        <div
-          class="flex-shrink-0 mx-3 w-40 h-20 rounded-xl border border-neutral-200 bg-white flex items-center justify-center p-4 shadow-sm">
-          <img src="https://logo.clearbit.com/google.com" alt="Google" class="max-h-10 max-w-full object-contain" />
-        </div>
+        <img src="https://geetauniversity.edu.in/uploads/all/1693/1.png?1771394640" alt="Microsoft Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1694/2.png?1771394640" alt="Oracle Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1695/3.png?1771394640" alt="AWS Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1696/4.png?1771394640" alt="Github Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1697/5.png?1771394640" alt="Red Hat Academy Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1698/6.png?1771394640" alt="EC Council Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1699/7.png?1771394640" alt="CompTIA Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1700/8.png?1771394640" alt="Microsoft Azure Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1701/9.png?1771394640" alt="vmware Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1702/10.png?1771394640" alt="Hubspot Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1703/11.png?1771394640" alt="EdX Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1704/12.png?1771394640" alt="Coursera Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
+        <img src="https://geetauniversity.edu.in/uploads/all/1705/13.png?1771394640" alt="Cisco Logo"
+          class="flex-shrink-0 mx-3 w-24 h-16 md:w-[120px] md:h-20 object-contain" loading="lazy" />
       </div>
     </div>
   </section>
@@ -1821,18 +2133,16 @@
         <!-- Watermark faded text -->
         <div class="absolute inset-0 flex items-center justify-end pointer-events-none select-none overflow-hidden">
           <span
-            class="text-[5rem] sm:text-[7rem] md:text-[9rem] font-black uppercase italic text-white/15 leading-none tracking-tight whitespace-nowrap pr-2">FAMOUS
+            class="text-[2.5rem] sm:text-[7rem] md:text-[9rem] font-black uppercase italic text-white/15 leading-none tracking-tight whitespace-nowrap pr-2">FAMOUS
             FACES</span>
         </div>
         <!-- Actual heading -->
         <div class="relative z-10 max-w-sm">
-          <p class="text-accent-500 font-bold uppercase tracking-widest text-xs mb-1">Creating Iconic Moments</p>
-          <p class="text-white font-bold text-lg uppercase tracking-wide">With</p>
           <h2
             class="font-heading text-4xl sm:text-5xl md:text-6xl font-black italic text-white uppercase leading-none mb-3">
-            Famous Faces</h2>
+            Stars</h2>
           <div class="flex items-center gap-2">
-            <span class="text-white/70 text-sm">at</span>
+            <span class="text-white/70 text-sm">@</span>
             <span class="text-white font-black text-base tracking-widest">GU</span>
             <div class="flex-1 h-px bg-accent-500 max-w-[80px]"></div>
           </div>
@@ -1840,7 +2150,7 @@
       </div>
 
       <!-- Bento Grid -->
-      <div class="reveal space-y-3">
+      <div class="hidden md:block reveal space-y-3">
 
         <!-- Top two columns -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -1933,30 +2243,39 @@
 
         </div>
       </div>
+      <div class="relative rounded-2xl overflow-hidden group md:hidden">
+        <img src="https://geetauniversity.edu.in/uploads/all/2000/face1.webp" alt="Jasraj Jayant Joshi" loading="lazy"
+          class="w-full h-auto block group-hover:scale-105 transition-transform duration-700" />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent"></div>
+        <span class="absolute bottom-3 left-4 text-white font-bold text-sm tracking-wide drop-shadow">Jasraj
+          Jayant Joshi</span>
+      </div>
 
       <!-- YouTube CTA Button -->
       <div class="mt-12 text-center reveal">
         <a rel="noopener"
-           class="group relative inline-flex items-center gap-3 bg-gradient-to-r from-red-600 to-red-500 hover:from-red-700 hover:to-red-600 text-white font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 shadow-[0_0_30px_rgba(220,38,38,0.5)] hover:shadow-[0_0_50px_rgba(220,38,38,0.7)] hover:-translate-y-1 overflow-hidden">
-          
+          class="group relative inline-flex items-center gap-3 bg-gradient-to-r from-red-600 to-red-500 hover:from-red-700 hover:to-red-600 text-white font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 shadow-[0_0_30px_rgba(220,38,38,0.5)] hover:shadow-[0_0_50px_rgba(220,38,38,0.7)] hover:-translate-y-1 overflow-hidden">
+
           <!-- Animated pulse ring -->
           <span class="absolute inset-0 rounded-full animate-ping bg-red-400 opacity-30"></span>
-          
+
           <!-- YouTube icon with play animation -->
-          <span class="relative flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-inner group-hover:scale-110 transition-transform duration-300">
+          <span
+            class="relative flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-inner group-hover:scale-110 transition-transform duration-300">
             <svg class="w-6 h-6 text-red-600 ml-0.5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M8 5v14l11-7z"/>
+              <path d="M8 5v14l11-7z" />
             </svg>
           </span>
-          
+
           <span class="relative z-10 flex flex-col items-start leading-tight">
             <span class="text-white/80 text-xs uppercase tracking-widest font-normal">Watch on YouTube</span>
             <span class="text-white text-base font-black tracking-wide">See All Star Performances</span>
           </span>
-          
+
           <!-- Arrow icon -->
-          <svg class="relative z-10 w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+          <svg class="relative z-10 w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform duration-300"
+            fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
           </svg>
         </a>
       </div>
@@ -1964,127 +2283,6 @@
     </div>
   </section>
 
-  <!-- SECTION 14: PREMIUM CTA — Where Learning Meets Adventure -->
-  <section class="py-16 md:py-24 bg-white overflow-hidden">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-      <div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-
-        <!-- Left: Polaroid Collage Carousel -->
-        <div class="relative h-[500px] lg:h-[600px] overflow-hidden reveal">
-
-          <!-- Two vertical infinite scroll columns -->
-          <div class="flex gap-4 h-full">
-
-            <!-- Column 1 — scroll UP -->
-            <div class="flex-1 overflow-hidden relative">
-              <div
-                class="absolute left-0 top-0 right-0 h-16 bg-gradient-to-b from-white to-transparent z-10 pointer-events-none">
-              </div>
-              <div
-                class="absolute left-0 bottom-0 right-0 h-16 bg-gradient-to-t from-white to-transparent z-10 pointer-events-none">
-              </div>
-              <div class="cta-carousel-col1 flex flex-col gap-4 animate-scroll-up">
-                <!-- Set 1 -->
-                <div class="flex-shrink-0 bg-white p-2 rounded-lg shadow-lg border border-neutral-200 rotate-[-2deg]">
-                  <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&q=80" alt="Campus Life"
-                    class="w-full h-40 object-cover rounded" />
-                </div>
-                <div class="flex-shrink-0 bg-white p-2 rounded-lg shadow-lg border border-neutral-200 rotate-[1deg]">
-                  <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=400&q=80" alt="Students"
-                    class="w-full h-40 object-cover rounded" />
-                </div>
-                <div class="flex-shrink-0 bg-white p-2 rounded-lg shadow-lg border border-neutral-200 rotate-[-1deg]">
-                  <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=400&q=80" alt="Sports"
-                    class="w-full h-40 object-cover rounded" />
-                </div>
-                <!-- Duplicate for loop -->
-                <div class="flex-shrink-0 bg-white p-2 rounded-lg shadow-lg border border-neutral-200 rotate-[-2deg]">
-                  <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&q=80" alt="Campus Life"
-                    class="w-full h-40 object-cover rounded" />
-                </div>
-                <div class="flex-shrink-0 bg-white p-2 rounded-lg shadow-lg border border-neutral-200 rotate-[1deg]">
-                  <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=400&q=80" alt="Students"
-                    class="w-full h-40 object-cover rounded" />
-                </div>
-                <div class="flex-shrink-0 bg-white p-2 rounded-lg shadow-lg border border-neutral-200 rotate-[-1deg]">
-                  <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=400&q=80" alt="Sports"
-                    class="w-full h-40 object-cover rounded" />
-                </div>
-              </div>
-            </div>
-
-            <!-- Column 2 — scroll DOWN -->
-            <div class="flex-1 overflow-hidden relative">
-              <div
-                class="absolute left-0 top-0 right-0 h-16 bg-gradient-to-b from-white to-transparent z-10 pointer-events-none">
-              </div>
-              <div
-                class="absolute left-0 bottom-0 right-0 h-16 bg-gradient-to-t from-white to-transparent z-10 pointer-events-none">
-              </div>
-              <div class="cta-carousel-col2 flex flex-col gap-4 animate-scroll-down">
-                <!-- Set 1 -->
-                <div class="flex-shrink-0 bg-white p-2 rounded-lg shadow-lg border border-neutral-200 rotate-[2deg]">
-                  <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400&q=80" alt="Library"
-                    class="w-full h-40 object-cover rounded" />
-                </div>
-                <div class="flex-shrink-0 bg-white p-2 rounded-lg shadow-lg border border-neutral-200 rotate-[-1deg]">
-                  <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=400&q=80" alt="Music"
-                    class="w-full h-40 object-cover rounded" />
-                </div>
-                <div class="flex-shrink-0 bg-white p-2 rounded-lg shadow-lg border border-neutral-200 rotate-[1deg]">
-                  <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=400&q=80" alt="Classroom"
-                    class="w-full h-40 object-cover rounded" />
-                </div>
-                <!-- Duplicate for loop -->
-                <div class="flex-shrink-0 bg-white p-2 rounded-lg shadow-lg border border-neutral-200 rotate-[2deg]">
-                  <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400&q=80" alt="Library"
-                    class="w-full h-40 object-cover rounded" />
-                </div>
-                <div class="flex-shrink-0 bg-white p-2 rounded-lg shadow-lg border border-neutral-200 rotate-[-1deg]">
-                  <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=400&q=80" alt="Music"
-                    class="w-full h-40 object-cover rounded" />
-                </div>
-                <div class="flex-shrink-0 bg-white p-2 rounded-lg shadow-lg border border-neutral-200 rotate-[1deg]">
-                  <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=400&q=80" alt="Classroom"
-                    class="w-full h-40 object-cover rounded" />
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- Right: Text Content -->
-        <div class="text-center lg:text-left reveal">
-          <p class="text-primary-600 italic text-2xl md:text-3xl mb-6" style="font-family: 'Zilla Slab', serif;">
-            Where Learning<br>Meets Adventure
-          </p>
-
-          <p class="text-primary-600/70 text-sm uppercase tracking-widest font-semibold mb-2">Panipat's Spirit</p>
-          <h2 class="text-primary-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-6"
-            style="font-family: 'Zilla Slab', serif;">
-            Geeta University's&nbsp;<br>Promise
-          </h2>
-
-          <div class="w-32 h-1 bg-gradient-to-r from-primary-600 to-primary-400 mx-auto lg:mx-0 rounded-full mb-8">
-          </div>
-
-          <p class="text-accent-500 font-black text-2xl md:text-3xl tracking-tight mb-1">Admissions 2026-27</p>
-          <p class="text-accent-500 italic text-xl md:text-2xl mb-8" style="font-family: 'Zilla Slab', serif;">
-            Let Your Journey Begin!
-          </p>
-
-          <a href="#banner_form"
-            class="inline-flex items-center gap-2 bg-accent-500 hover:bg-accent-600 text-white font-bold px-10 py-4 rounded-full text-lg transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1">
-            Apply Now
-          </a>
-        </div>
-
-      </div>
-    </div>
-
-  </section>
 
   <!-- SECTION 15: FOOTER -->
   <footer class="bg-white border-t-4 border-accent-500">
@@ -2099,8 +2297,8 @@
           <div>
             <h3 class="text-primary-600 font-black text-xl uppercase tracking-wide">Geeta University</h3>
             <p class="text-accent-500 text-xs font-semibold tracking-wide mb-2">Panipat, Delhi NCR, India — <span
-                class="text-neutral-500 font-normal">Powering Education, Empowering Minds.</span></p>
-            <p class="text-neutral-600 text-sm leading-relaxed">
+                class="text-neutral-700 font-normal">Powering Education, Empowering Minds.</span></p>
+            <p class="text-neutral-800 text-sm leading-relaxed">
               Geeta University provides the runway for thousands of dreams to take flight and helps students achieve the
               objective of a successful career in their chosen field. It is the leading University in Haryana having
               high placement records.
@@ -2271,6 +2469,7 @@
       });
     }
     initAccordion('#whyJoinAccordion', '.accordion-btn', '.accordion-content', '.acc-icon');
+    initAccordion('#featuresAccordion', '.accordion-btn', '.accordion-content', '.acc-icon');
     initAccordion('#programsAccordion', '.prog-btn', '.prog-content', '.prog-icon');
 
     // ===== SCHOLARSHIP CALCULATOR =====
