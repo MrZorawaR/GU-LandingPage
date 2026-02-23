@@ -638,7 +638,7 @@
         <!-- Left: Description + Video -->
         <div class="space-y-8 reveal">
           <!-- Video Preview Block -->
-          <div class="relative rounded-2xl overflow-hidden shadow-xl group cursor-pointer bg-neutral-900 aspect-video">
+          <div onclick="openVideoModal()" class="relative rounded-2xl overflow-hidden shadow-xl group cursor-pointer bg-neutral-900 aspect-video">
             <img src="https://in6cdn.npfs.co/uploads/template/6438/1116/publish/images/video.jpg"
               alt="Geeta University campus tour preview" width="800" height="450" loading="lazy"
               class="w-full h-full object-cover opacity-80 group-hover:opacity-60 transition-all duration-500">
@@ -2145,8 +2145,8 @@
 
       <!-- YouTube CTA Button -->
       <div class="mt-12 text-center reveal">
-        <a rel="noopener"
-          class="group relative inline-flex items-center gap-3 bg-gradient-to-r from-red-600 to-red-500 hover:from-red-700 hover:to-red-600 text-white font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 shadow-[0_0_30px_rgba(220,38,38,0.5)] hover:shadow-[0_0_50px_rgba(220,38,38,0.7)] hover:-translate-y-1 overflow-hidden">
+        <a rel="noopener" onclick="openVideoModal2(); return false;" href="#"
+          class="group relative inline-flex items-center gap-3 bg-gradient-to-r from-red-600 to-red-500 hover:from-red-700 hover:to-red-600 text-white font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 shadow-[0_0_30px_rgba(220,38,38,0.5)] hover:shadow-[0_0_50px_rgba(220,38,38,0.7)] hover:-translate-y-1 overflow-hidden cursor-pointer">
 
           <!-- Animated pulse ring -->
           <span class="absolute inset-0 rounded-full animate-ping bg-red-400 opacity-30"></span>
@@ -2483,6 +2483,80 @@
     initAccordion('#programsAccordion', '.prog-btn', '.prog-content', '.prog-icon');
 
 
+  </script>
+
+  <!-- YouTube Video Modal -->
+  <div id="videoModal" class="fixed inset-0 z-[9999] flex items-center justify-center bg-white/80 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300">
+    <div class="relative w-[90vw] max-w-4xl aspect-video">
+      <button onclick="closeVideoModal()" class="absolute -top-10 right-0 text-black hover:text-accent-400 transition-colors" aria-label="Close video">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+      <iframe id="videoIframe" class="w-full h-full rounded-2xl shadow-2xl" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script>
+    function openVideoModal() {
+      const modal = document.getElementById('videoModal');
+      const iframe = document.getElementById('videoIframe');
+      iframe.src = 'https://www.youtube.com/embed/arnFS6rf454?si=hjHgCKy7HD4cFFzb&autoplay=1';
+      modal.classList.remove('opacity-0', 'pointer-events-none');
+      modal.classList.add('opacity-100', 'pointer-events-auto');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeVideoModal() {
+      const modal = document.getElementById('videoModal');
+      const iframe = document.getElementById('videoIframe');
+      modal.classList.remove('opacity-100', 'pointer-events-auto');
+      modal.classList.add('opacity-0', 'pointer-events-none');
+      iframe.src = '';
+      document.body.style.overflow = '';
+    }
+    document.getElementById('videoModal').addEventListener('click', function(e) {
+      if (e.target === this) closeVideoModal();
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeVideoModal();
+    });
+  </script>
+
+  <!-- YouTube Video Modal 2 -->
+  <div id="videoModal2" class="fixed inset-0 z-[9999] flex items-center justify-center bg-black/80 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300">
+    <div class="relative w-[90vw] max-w-4xl aspect-video">
+      <button onclick="closeVideoModal2()" class="absolute -top-10 right-0 text-white hover:text-accent-400 transition-colors" aria-label="Close video">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+      <iframe id="videoIframe2" class="w-full h-full rounded-2xl shadow-2xl" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script>
+    function openVideoModal2() {
+      const modal = document.getElementById('videoModal2');
+      const iframe = document.getElementById('videoIframe2');
+      iframe.src = 'https://www.youtube.com/embed/D-TW0dcqMDA?si=4Wk5DoHZye5GWS-7&autoplay=1';
+      modal.classList.remove('opacity-0', 'pointer-events-none');
+      modal.classList.add('opacity-100', 'pointer-events-auto');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeVideoModal2() {
+      const modal = document.getElementById('videoModal2');
+      const iframe = document.getElementById('videoIframe2');
+      modal.classList.remove('opacity-100', 'pointer-events-auto');
+      modal.classList.add('opacity-0', 'pointer-events-none');
+      iframe.src = '';
+      document.body.style.overflow = '';
+    }
+    document.getElementById('videoModal2').addEventListener('click', function(e) {
+      if (e.target === this) closeVideoModal2();
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeVideoModal2();
+    });
   </script>
 
 </body>
