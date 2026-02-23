@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== BASE STYLES ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  color: #343a40;
+  background: #f8f9fa;
+  overflow-x: hidden;
+}
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #f1f3f5; }
+::-webkit-scrollbar-thumb { background: #9fb3d0; border-radius: 99px; }
+
+/* Infinite scroll animation */
+@keyframes flags-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-flags-scroll {
+  animation: flags-scroll 30s linear infinite;
+}
+.animate-flags-scroll:hover {
+  animation-play-state: paused;
+}
+
+/* Lazy iframe placeholder */
+.iframe-lazy {
+  background: #f1f3f5;
+  position: relative;
+  overflow: hidden;
+}
+.iframe-lazy::before {
+  content: 'Loading...';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #6c757d;
+  font-size: 14px;
+}
