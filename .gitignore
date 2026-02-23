@@ -1,0 +1,8 @@
+# Dependencies
+node_modules/
+
+# Source CSS (not needed in production)
+src/
+
+# Package files
+package-lock.json
